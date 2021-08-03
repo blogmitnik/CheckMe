@@ -1,0 +1,44 @@
+<h1>Search by SN</h1>
+<%= form_for :query, url: bin_reports_path, method: :get do |form| %>
+  <div class="field">
+    <%= form.text_field :text, placeholder: 'Search by SN...', value: params.dig('query', 'text') %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit 'Search' %>
+  </div>
+<% end  %>
+
+<h1>Search Results</h1>
+<p><%= link_to "Back", root_path %></p>
+
+<% if @bin_reports %>
+  <% if @bin_reports.empty? %>
+      <p>No result were found.</p>
+  <% else %>
+      <table>
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Model</th>
+                  <th>SN</th>
+                  <th>Current</th>
+                  <th>BIN</th>
+                  <th colspan="5"></th>
+              </tr>
+          </thead>
+
+          <tbody>
+              <% @bin_reports.each do |report| %>
+              <tr>
+                  <td><%= report.name %></td>
+                  <td><%= report.model %></td>
+                  <td><%= report.sn %></td>
+                  <td><%= report.current %></td>
+                  <td><%= report.bin %></td>
+              </tr>
+              <% end %>
+          </tbody>
+  </table>
+  <% end %>
+<% end %>
