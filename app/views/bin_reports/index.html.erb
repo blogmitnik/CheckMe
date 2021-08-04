@@ -23,18 +23,20 @@
           <table class="table table-hover">
               <thead class="thead-dark">
                   <tr>
+                      <th scope="col">Time</th>
                       <th scope="col">Name</th>
                       <th scope="col">Model</th>
                       <th scope="col">SN</th>
                       <th scope="col">Current</th>
                       <th scope="col">BIN</th>
-                      <th colspan="5"></th>
+                      <th colspan="6"></th>
                   </tr>
               </thead>
 
               <tbody>
                   <% @bin_reports.each do |report| %>
                   <tr scope="row">
+                      <td><%= report.time %></td>
                       <td><%= report.name %></td>
                       <td><%= report.model %></td>
                       <td><%= report.sn %></td>
