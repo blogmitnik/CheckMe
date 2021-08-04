@@ -1,6 +1,6 @@
 class BinReportsController < ApplicationController
 	def index
-		if !query_params.empty?
+		if !query_params.empty? && !query_params[:text].blank?
 			@bin_reports = BinReport.filtered(query_params)
 
 			if !@bin_reports.empty?

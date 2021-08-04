@@ -1,0 +1,36 @@
+<div class="container">
+	<h1>Search History</h1>
+
+  <p><%= link_to "Back", root_path %></p>
+  
+	<% if @histories.empty? %>
+        <p>No histories were found.</p>
+    <% else %>
+        <div class="col-md-6 mb-3">
+          <table class="table table-hover">
+              <thead class="thead-dark">
+                  <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Model</th>
+                      <th scope="col">SN</th>
+                      <th scope="col">Current</th>
+                      <th scope="col">BIN</th>
+                      <th colspan="5"></th>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <% @histories.each do |report| %>
+                  <tr scope="row">
+                      <td><%= report.name %></td>
+                      <td><%= report.model %></td>
+                      <td><%= report.sn %></td>
+                      <td><%= report.current %></td>
+                      <td><%= report.bin %></td>
+                  </tr>
+                  <% end %>
+              </tbody>
+          </table>
+        </div>
+    <% end %>
+</div>

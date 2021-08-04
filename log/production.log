@@ -1,0 +1,1342 @@
+I, [2021-08-04T09:43:28.204650 #41303]  INFO -- : [0a4a1a54-b03b-41be-9fc0-34fb5822cc56] Started GET "/" for 127.0.0.1 at 2021-08-04 09:43:28 +0800
+I, [2021-08-04T09:43:28.206398 #41303]  INFO -- : [0a4a1a54-b03b-41be-9fc0-34fb5822cc56] Processing by BinReportsController#index as HTML
+I, [2021-08-04T09:43:28.213715 #41303]  INFO -- : [0a4a1a54-b03b-41be-9fc0-34fb5822cc56]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T09:43:28.215265 #41303]  INFO -- : [0a4a1a54-b03b-41be-9fc0-34fb5822cc56]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 644)
+I, [2021-08-04T09:43:28.216665 #41303]  INFO -- : [0a4a1a54-b03b-41be-9fc0-34fb5822cc56] Completed 200 OK in 10ms (Views: 5.1ms | Allocations: 2493)
+I, [2021-08-04T09:43:28.233034 #41303]  INFO -- : [377132b1-33f2-4cce-84a1-18dcbc64565d] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 09:43:28 +0800
+F, [2021-08-04T09:43:28.233787 #41303] FATAL -- : [377132b1-33f2-4cce-84a1-18dcbc64565d]   
+[377132b1-33f2-4cce-84a1-18dcbc64565d] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[377132b1-33f2-4cce-84a1-18dcbc64565d]   
+[377132b1-33f2-4cce-84a1-18dcbc64565d] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[377132b1-33f2-4cce-84a1-18dcbc64565d] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T09:48:06.511142 #41490]  INFO -- : [f100cf93-61b6-4ea5-adc2-57eb3498a187] Started GET "/" for 127.0.0.1 at 2021-08-04 09:48:06 +0800
+I, [2021-08-04T09:48:06.512910 #41490]  INFO -- : [f100cf93-61b6-4ea5-adc2-57eb3498a187] Processing by BinReportsController#index as HTML
+I, [2021-08-04T09:48:06.522852 #41490]  INFO -- : [f100cf93-61b6-4ea5-adc2-57eb3498a187]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T09:48:06.524180 #41490]  INFO -- : [f100cf93-61b6-4ea5-adc2-57eb3498a187]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 644)
+I, [2021-08-04T09:48:06.525142 #41490]  INFO -- : [f100cf93-61b6-4ea5-adc2-57eb3498a187] Completed 200 OK in 12ms (Views: 5.2ms | Allocations: 2580)
+I, [2021-08-04T09:48:06.593815 #41490]  INFO -- : [e8104f5f-fc7a-4eee-96c6-3f3720f5950d] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 09:48:06 +0800
+F, [2021-08-04T09:48:06.594863 #41490] FATAL -- : [e8104f5f-fc7a-4eee-96c6-3f3720f5950d]   
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d]   
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[e8104f5f-fc7a-4eee-96c6-3f3720f5950d] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T09:48:12.077178 #41490]  INFO -- : [018928fa-b560-4716-bed1-ea509d198c4f] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:48:12 +0800
+I, [2021-08-04T09:48:12.077979 #41490]  INFO -- : [018928fa-b560-4716-bed1-ea509d198c4f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T09:48:12.078052 #41490]  INFO -- : [018928fa-b560-4716-bed1-ea509d198c4f]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:48:12.096270 #41490] DEBUG -- : [018928fa-b560-4716-bed1-ea509d198c4f]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:48:12.096896 #41490] DEBUG -- : [018928fa-b560-4716-bed1-ea509d198c4f]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:48:12.118836 #41490] DEBUG -- : [018928fa-b560-4716-bed1-ea509d198c4f]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:48:12.119475 #41490] DEBUG -- : [018928fa-b560-4716-bed1-ea509d198c4f]   [1m[36mSearchHistory Create (0.5ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('b0b1dd11-c7f0-4f6f-93dc-fc25814c3d9d', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:48:12', '2021-08-04 09:48:12')[0m
+D, [2021-08-04T09:48:12.121247 #41490] DEBUG -- : [018928fa-b560-4716-bed1-ea509d198c4f]   [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:48:12.121663 #41490]  INFO -- : [018928fa-b560-4716-bed1-ea509d198c4f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T09:48:12.122141 #41490]  INFO -- : [018928fa-b560-4716-bed1-ea509d198c4f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 195)
+I, [2021-08-04T09:48:12.122719 #41490]  INFO -- : [018928fa-b560-4716-bed1-ea509d198c4f] Completed 200 OK in 45ms (Views: 1.2ms | ActiveRecord: 11.9ms | Allocations: 13622)
+I, [2021-08-04T09:48:12.147592 #41490]  INFO -- : [b9d4fec2-5f3b-4732-b571-ec33d5d4310b] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 09:48:12 +0800
+F, [2021-08-04T09:48:12.148248 #41490] FATAL -- : [b9d4fec2-5f3b-4732-b571-ec33d5d4310b]   
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b]   
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[b9d4fec2-5f3b-4732-b571-ec33d5d4310b] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T09:56:46.435487 #41635]  INFO -- : [a9d28897-c6d1-4a68-9c80-8ae37cf969fa] Started GET "/" for 127.0.0.1 at 2021-08-04 09:56:46 +0800
+I, [2021-08-04T09:56:46.437184 #41635]  INFO -- : [a9d28897-c6d1-4a68-9c80-8ae37cf969fa] Processing by BinReportsController#index as HTML
+I, [2021-08-04T09:56:46.444109 #41635]  INFO -- : [a9d28897-c6d1-4a68-9c80-8ae37cf969fa]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T09:56:46.445439 #41635]  INFO -- : [a9d28897-c6d1-4a68-9c80-8ae37cf969fa]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 655)
+I, [2021-08-04T09:56:46.447717 #41635]  INFO -- : [a9d28897-c6d1-4a68-9c80-8ae37cf969fa] Completed 200 OK in 10ms (Views: 5.0ms | Allocations: 2595)
+I, [2021-08-04T09:56:49.084253 #41635]  INFO -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:56:49 +0800
+I, [2021-08-04T09:56:49.094260 #41635]  INFO -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:56:49.094358 #41635]  INFO -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:56:49.103658 #41635] DEBUG -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   [1m[36mBinReport Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:56:49.104560 #41635] DEBUG -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:56:49.128228 #41635] DEBUG -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:56:49.128645 #41635] DEBUG -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('48e0798e-c830-4182-9670-a9b280754fa4', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:56:49', '2021-08-04 09:56:49')[0m
+D, [2021-08-04T09:56:49.129369 #41635] DEBUG -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:56:49.132545 #41635]  INFO -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:56:49.132929 #41635]  INFO -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9]   Rendered bin_reports/index.js.erb (Duration: 0.3ms | Allocations: 98)
+I, [2021-08-04T09:56:49.133136 #41635]  INFO -- : [edd622e2-97c0-469d-9ae0-19f1da5700e9] Completed 200 OK in 39ms (Views: 3.0ms | ActiveRecord: 7.0ms | Allocations: 14679)
+I, [2021-08-04T09:56:50.489128 #41635]  INFO -- : [1d427d32-4c38-4f20-b79e-0d43988b0399] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:56:50 +0800
+I, [2021-08-04T09:56:50.490025 #41635]  INFO -- : [1d427d32-4c38-4f20-b79e-0d43988b0399] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:56:50.490095 #41635]  INFO -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:56:50.491897 #41635] DEBUG -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:56:50.492661 #41635] DEBUG -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:56:50.494375 #41635] DEBUG -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:56:50.494742 #41635] DEBUG -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('bada5e9e-b14b-4f72-b704-761b43045b57', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:56:50', '2021-08-04 09:56:50')[0m
+D, [2021-08-04T09:56:50.495785 #41635] DEBUG -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:56:50.496317 #41635]  INFO -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:56:50.496423 #41635]  INFO -- : [1d427d32-4c38-4f20-b79e-0d43988b0399]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-08-04T09:56:50.496625 #41635]  INFO -- : [1d427d32-4c38-4f20-b79e-0d43988b0399] Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.9ms | Allocations: 1380)
+I, [2021-08-04T09:56:51.267452 #41635]  INFO -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:56:51 +0800
+I, [2021-08-04T09:56:51.281684 #41635]  INFO -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:56:51.281760 #41635]  INFO -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:56:51.283231 #41635] DEBUG -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:56:51.283783 #41635] DEBUG -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:56:51.285152 #41635] DEBUG -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:56:51.285698 #41635] DEBUG -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   [1m[36mSearchHistory Create (0.4ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('e7eaeeda-3166-4e32-ab1e-ee590ec8b41d', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:56:51', '2021-08-04 09:56:51')[0m
+D, [2021-08-04T09:56:51.286396 #41635] DEBUG -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:56:51.286857 #41635]  INFO -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:56:51.286948 #41635]  INFO -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-08-04T09:56:51.287101 #41635]  INFO -- : [35cb214c-0e7e-47aa-8420-3b15bcba9808] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.5ms | Allocations: 1375)
+I, [2021-08-04T09:56:51.513973 #41635]  INFO -- : [5b0f9ec9-0833-479d-a796-6831cb537758] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:56:51 +0800
+I, [2021-08-04T09:56:51.514776 #41635]  INFO -- : [5b0f9ec9-0833-479d-a796-6831cb537758] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:56:51.514832 #41635]  INFO -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:56:51.516237 #41635] DEBUG -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:56:51.516826 #41635] DEBUG -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:56:51.518319 #41635] DEBUG -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:56:51.518665 #41635] DEBUG -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('4d857e68-0c4c-4c49-a178-19c939f8f1c3', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:56:51', '2021-08-04 09:56:51')[0m
+D, [2021-08-04T09:56:51.519367 #41635] DEBUG -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:56:51.519884 #41635]  INFO -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:56:51.519971 #41635]  INFO -- : [5b0f9ec9-0833-479d-a796-6831cb537758]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-08-04T09:56:51.520118 #41635]  INFO -- : [5b0f9ec9-0833-479d-a796-6831cb537758] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 1372)
+I, [2021-08-04T09:56:51.925145 #41635]  INFO -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:56:51 +0800
+I, [2021-08-04T09:56:51.926074 #41635]  INFO -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:56:51.926147 #41635]  INFO -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:56:51.927773 #41635] DEBUG -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:56:51.928405 #41635] DEBUG -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:56:51.929823 #41635] DEBUG -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:56:51.930220 #41635] DEBUG -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('38eecd90-4943-44f5-92cc-7e3f08964c32', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:56:51', '2021-08-04 09:56:51')[0m
+D, [2021-08-04T09:56:51.930780 #41635] DEBUG -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:56:51.931244 #41635]  INFO -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:56:51.931342 #41635]  INFO -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T09:56:51.931552 #41635]  INFO -- : [6da1cc0e-ea5e-4c6e-8306-01e8e60f5c74] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 1377)
+I, [2021-08-04T09:57:04.386116 #41635]  INFO -- : [3b752e8c-4c02-42eb-b08b-d228f82099c7] Started GET "/" for 127.0.0.1 at 2021-08-04 09:57:04 +0800
+I, [2021-08-04T09:57:04.386856 #41635]  INFO -- : [3b752e8c-4c02-42eb-b08b-d228f82099c7] Processing by BinReportsController#index as HTML
+I, [2021-08-04T09:57:04.387966 #41635]  INFO -- : [3b752e8c-4c02-42eb-b08b-d228f82099c7]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T09:57:04.388506 #41635]  INFO -- : [3b752e8c-4c02-42eb-b08b-d228f82099c7]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 191)
+I, [2021-08-04T09:57:04.389232 #41635]  INFO -- : [3b752e8c-4c02-42eb-b08b-d228f82099c7] Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 851)
+I, [2021-08-04T09:57:04.419480 #41635]  INFO -- : [3c2d0c51-b5ac-466c-ad30-541cdb391f24] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 09:57:04 +0800
+F, [2021-08-04T09:57:04.420135 #41635] FATAL -- : [3c2d0c51-b5ac-466c-ad30-541cdb391f24]   
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24]   
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[3c2d0c51-b5ac-466c-ad30-541cdb391f24] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T09:57:06.448821 #41635]  INFO -- : [e0a54281-9018-4081-ada4-e3b633313ec4] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:57:06 +0800
+I, [2021-08-04T09:57:06.449726 #41635]  INFO -- : [e0a54281-9018-4081-ada4-e3b633313ec4] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:57:06.449790 #41635]  INFO -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:57:06.451614 #41635] DEBUG -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:57:06.452234 #41635] DEBUG -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:57:06.453722 #41635] DEBUG -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:57:06.454128 #41635] DEBUG -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('168e1618-3b75-4577-9dc8-377b4fcfb109', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:57:06', '2021-08-04 09:57:06')[0m
+D, [2021-08-04T09:57:06.454870 #41635] DEBUG -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:57:06.455380 #41635]  INFO -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:57:06.455478 #41635]  INFO -- : [e0a54281-9018-4081-ada4-e3b633313ec4]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T09:57:06.455647 #41635]  INFO -- : [e0a54281-9018-4081-ada4-e3b633313ec4] Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 1.5ms | Allocations: 1351)
+I, [2021-08-04T09:57:48.615739 #41635]  INFO -- : [3b26396a-3aa0-4dfc-b696-9bcaf9e8ee47] Started GET "/" for 127.0.0.1 at 2021-08-04 09:57:48 +0800
+I, [2021-08-04T09:57:48.616312 #41635]  INFO -- : [3b26396a-3aa0-4dfc-b696-9bcaf9e8ee47] Processing by BinReportsController#index as HTML
+I, [2021-08-04T09:57:48.617080 #41635]  INFO -- : [3b26396a-3aa0-4dfc-b696-9bcaf9e8ee47]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T09:57:48.617668 #41635]  INFO -- : [3b26396a-3aa0-4dfc-b696-9bcaf9e8ee47]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 185)
+I, [2021-08-04T09:57:48.618312 #41635]  INFO -- : [3b26396a-3aa0-4dfc-b696-9bcaf9e8ee47] Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 834)
+I, [2021-08-04T09:57:48.641744 #41635]  INFO -- : [c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 09:57:48 +0800
+F, [2021-08-04T09:57:48.642352 #41635] FATAL -- : [c19f00c4-d0c4-46ab-9c54-4ad8f772f48a]   
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a]   
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[c19f00c4-d0c4-46ab-9c54-4ad8f772f48a] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T09:57:50.713320 #41635]  INFO -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:57:50 +0800
+I, [2021-08-04T09:57:50.714138 #41635]  INFO -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:57:50.714206 #41635]  INFO -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:57:50.715898 #41635] DEBUG -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:57:50.716609 #41635] DEBUG -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:57:50.717882 #41635] DEBUG -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:57:50.718215 #41635] DEBUG -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('2179896a-12e0-4056-8555-e813e75a8394', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:57:50', '2021-08-04 09:57:50')[0m
+D, [2021-08-04T09:57:50.718792 #41635] DEBUG -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:57:50.719296 #41635]  INFO -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:57:50.719426 #41635]  INFO -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T09:57:50.719604 #41635]  INFO -- : [01eccd66-b72c-44d5-9022-12f4b5c9471e] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.4ms | Allocations: 1358)
+I, [2021-08-04T09:58:01.970597 #41635]  INFO -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2] Started GET "/bin_reports?query%5Btext%5D=96172220600&commit=Search" for 127.0.0.1 at 2021-08-04 09:58:01 +0800
+I, [2021-08-04T09:58:01.971520 #41635]  INFO -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:58:01.971598 #41635]  INFO -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2]   Parameters: {"query"=>{"text"=>"96172220600"}, "commit"=>"Search"}
+D, [2021-08-04T09:58:01.973279 #41635] DEBUG -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220600') LIMIT 1[0m
+D, [2021-08-04T09:58:01.974566 #41635] DEBUG -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:58:01.974937 #41635] DEBUG -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `sn`, `created_at`, `updated_at`) VALUES ('10405f99-0149-47e8-bce0-0370832c8362', '96172220600', '2021-08-04 09:58:01', '2021-08-04 09:58:01')[0m
+D, [2021-08-04T09:58:01.976162 #41635] DEBUG -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2]   [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:58:01.976669 #41635]  INFO -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:58:01.976812 #41635]  INFO -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2]   Rendered bin_reports/index.js.erb (Duration: 0.1ms | Allocations: 4)
+I, [2021-08-04T09:58:01.977030 #41635]  INFO -- : [6ae9aa69-dd8d-425b-b21a-872ff620d6b2] Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.7ms | Allocations: 1172)
+I, [2021-08-04T09:58:13.344663 #41635]  INFO -- : [7111c33a-9067-4e3a-9957-9624d18984ac] Started GET "/bin_reports?query%5Btext%5D=96172220600&commit=Search" for 127.0.0.1 at 2021-08-04 09:58:13 +0800
+I, [2021-08-04T09:58:13.345555 #41635]  INFO -- : [7111c33a-9067-4e3a-9957-9624d18984ac] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:58:13.345616 #41635]  INFO -- : [7111c33a-9067-4e3a-9957-9624d18984ac]   Parameters: {"query"=>{"text"=>"96172220600"}, "commit"=>"Search"}
+D, [2021-08-04T09:58:13.347243 #41635] DEBUG -- : [7111c33a-9067-4e3a-9957-9624d18984ac]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220600') LIMIT 1[0m
+D, [2021-08-04T09:58:13.348488 #41635] DEBUG -- : [7111c33a-9067-4e3a-9957-9624d18984ac]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:58:13.348806 #41635] DEBUG -- : [7111c33a-9067-4e3a-9957-9624d18984ac]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `sn`, `created_at`, `updated_at`) VALUES ('45cd3412-07d5-486a-8d90-b8e1d5080a7d', '96172220600', '2021-08-04 09:58:13', '2021-08-04 09:58:13')[0m
+D, [2021-08-04T09:58:13.350146 #41635] DEBUG -- : [7111c33a-9067-4e3a-9957-9624d18984ac]   [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:58:13.350698 #41635]  INFO -- : [7111c33a-9067-4e3a-9957-9624d18984ac]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:58:13.350804 #41635]  INFO -- : [7111c33a-9067-4e3a-9957-9624d18984ac]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T09:58:13.350999 #41635]  INFO -- : [7111c33a-9067-4e3a-9957-9624d18984ac] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.8ms | Allocations: 1174)
+I, [2021-08-04T09:58:15.032746 #41635]  INFO -- : [55c79891-fcd0-4f05-9c06-43c294284f32] Started GET "/bin_reports?query%5Btext%5D=96172220600&commit=Search" for 127.0.0.1 at 2021-08-04 09:58:15 +0800
+I, [2021-08-04T09:58:15.033417 #41635]  INFO -- : [55c79891-fcd0-4f05-9c06-43c294284f32] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:58:15.033475 #41635]  INFO -- : [55c79891-fcd0-4f05-9c06-43c294284f32]   Parameters: {"query"=>{"text"=>"96172220600"}, "commit"=>"Search"}
+D, [2021-08-04T09:58:15.034818 #41635] DEBUG -- : [55c79891-fcd0-4f05-9c06-43c294284f32]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220600') LIMIT 1[0m
+D, [2021-08-04T09:58:15.035862 #41635] DEBUG -- : [55c79891-fcd0-4f05-9c06-43c294284f32]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:58:15.036205 #41635] DEBUG -- : [55c79891-fcd0-4f05-9c06-43c294284f32]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `sn`, `created_at`, `updated_at`) VALUES ('a693aa58-21c6-4f7d-bbe2-d6bcb920a42d', '96172220600', '2021-08-04 09:58:15', '2021-08-04 09:58:15')[0m
+D, [2021-08-04T09:58:15.037634 #41635] DEBUG -- : [55c79891-fcd0-4f05-9c06-43c294284f32]   [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:58:15.038079 #41635]  INFO -- : [55c79891-fcd0-4f05-9c06-43c294284f32]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:58:15.038169 #41635]  INFO -- : [55c79891-fcd0-4f05-9c06-43c294284f32]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T09:58:15.038319 #41635]  INFO -- : [55c79891-fcd0-4f05-9c06-43c294284f32] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.8ms | Allocations: 1164)
+I, [2021-08-04T09:58:28.471094 #41635]  INFO -- : [f67322d0-bb33-41f6-8104-ad28609bf1f2] Started GET "/" for 127.0.0.1 at 2021-08-04 09:58:28 +0800
+I, [2021-08-04T09:58:28.471915 #41635]  INFO -- : [f67322d0-bb33-41f6-8104-ad28609bf1f2] Processing by BinReportsController#index as HTML
+I, [2021-08-04T09:58:28.472824 #41635]  INFO -- : [f67322d0-bb33-41f6-8104-ad28609bf1f2]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T09:58:28.473255 #41635]  INFO -- : [f67322d0-bb33-41f6-8104-ad28609bf1f2]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 185)
+I, [2021-08-04T09:58:28.473864 #41635]  INFO -- : [f67322d0-bb33-41f6-8104-ad28609bf1f2] Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 844)
+I, [2021-08-04T09:58:28.498837 #41635]  INFO -- : [1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 09:58:28 +0800
+F, [2021-08-04T09:58:28.499351 #41635] FATAL -- : [1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7]   
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7]   
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[1c2f30e7-f5f0-4347-b0f6-7b178f55dbf7] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T09:58:30.508446 #41635]  INFO -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 09:58:30 +0800
+I, [2021-08-04T09:58:30.509234 #41635]  INFO -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:58:30.509299 #41635]  INFO -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T09:58:30.511864 #41635] DEBUG -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   [1m[36mBinReport Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T09:58:30.512526 #41635] DEBUG -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T09:58:30.514568 #41635] DEBUG -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:58:30.515532 #41635] DEBUG -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   [1m[36mSearchHistory Create (0.5ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('20c7ac4b-3344-420e-a778-de1223495134', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 09:58:30', '2021-08-04 09:58:30')[0m
+D, [2021-08-04T09:58:30.516295 #41635] DEBUG -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:58:30.516752 #41635]  INFO -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:58:30.516841 #41635]  INFO -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T09:58:30.517032 #41635]  INFO -- : [e1f42c52-fd6a-45b3-bfd9-d171a329b9e1] Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 3.2ms | Allocations: 1357)
+I, [2021-08-04T09:59:41.088838 #41684]  INFO -- : [6841cbc5-3871-443d-87a2-f0537902e235] Started GET "/bin_reports?query%5Btext%5D=96172211270&commit=Search" for 127.0.0.1 at 2021-08-04 09:59:41 +0800
+I, [2021-08-04T09:59:41.092974 #41684]  INFO -- : [6841cbc5-3871-443d-87a2-f0537902e235] Processing by BinReportsController#index as JS
+I, [2021-08-04T09:59:41.093043 #41684]  INFO -- : [6841cbc5-3871-443d-87a2-f0537902e235]   Parameters: {"query"=>{"text"=>"96172211270"}, "commit"=>"Search"}
+D, [2021-08-04T09:59:41.103565 #41684] DEBUG -- : [6841cbc5-3871-443d-87a2-f0537902e235]   [1m[36mBinReport Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211270') LIMIT 1[0m
+D, [2021-08-04T09:59:41.104281 #41684] DEBUG -- : [6841cbc5-3871-443d-87a2-f0537902e235]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211270')[0m
+D, [2021-08-04T09:59:41.127524 #41684] DEBUG -- : [6841cbc5-3871-443d-87a2-f0537902e235]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T09:59:41.127842 #41684] DEBUG -- : [6841cbc5-3871-443d-87a2-f0537902e235]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('9ec48b93-7045-4b86-bc57-1296a3d2251f', '2020/12/29 13:52', 'AHB Cell Pack', 'AHB74490HPC', '96172211270', 0.324, 'C3', '2021-08-04 09:59:41', '2021-08-04 09:59:41')[0m
+D, [2021-08-04T09:59:41.128364 #41684] DEBUG -- : [6841cbc5-3871-443d-87a2-f0537902e235]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T09:59:41.132088 #41684]  INFO -- : [6841cbc5-3871-443d-87a2-f0537902e235]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T09:59:41.132590 #41684]  INFO -- : [6841cbc5-3871-443d-87a2-f0537902e235]   Rendered bin_reports/index.js.erb (Duration: 0.4ms | Allocations: 114)
+I, [2021-08-04T09:59:41.132805 #41684]  INFO -- : [6841cbc5-3871-443d-87a2-f0537902e235] Completed 200 OK in 40ms (Views: 3.4ms | ActiveRecord: 3.5ms | Allocations: 15091)
+I, [2021-08-04T10:01:30.174921 #41684]  INFO -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f] Started GET "/bin_reports?query%5Btext%5D=96172211270&commit=Search" for 127.0.0.1 at 2021-08-04 10:01:30 +0800
+I, [2021-08-04T10:01:30.175663 #41684]  INFO -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f] Processing by BinReportsController#index as JS
+I, [2021-08-04T10:01:30.175726 #41684]  INFO -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   Parameters: {"query"=>{"text"=>"96172211270"}, "commit"=>"Search"}
+D, [2021-08-04T10:01:30.177056 #41684] DEBUG -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211270') LIMIT 1[0m
+D, [2021-08-04T10:01:30.177504 #41684] DEBUG -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211270')[0m
+D, [2021-08-04T10:01:30.178710 #41684] DEBUG -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:01:30.179024 #41684] DEBUG -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('d88e87e1-5aaf-4b0c-8037-716ca070af24', '2020/12/29 13:52', 'AHB Cell Pack', 'AHB74490HPC', '96172211270', 0.324, 'C3', '2021-08-04 10:01:30', '2021-08-04 10:01:30')[0m
+D, [2021-08-04T10:01:30.179615 #41684] DEBUG -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:01:30.180093 #41684]  INFO -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T10:01:30.180194 #41684]  INFO -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-08-04T10:01:30.180364 #41684]  INFO -- : [4a0624a1-b2f6-482e-9a8a-8439c701f33f] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.2ms | Allocations: 1384)
+I, [2021-08-04T10:02:38.823385 #41684]  INFO -- : [26f8e10f-7c72-4b9b-95f6-71ef417ded3d] Started GET "/" for 127.0.0.1 at 2021-08-04 10:02:38 +0800
+I, [2021-08-04T10:02:38.826290 #41684]  INFO -- : [26f8e10f-7c72-4b9b-95f6-71ef417ded3d] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:02:38.853955 #41684]  INFO -- : [26f8e10f-7c72-4b9b-95f6-71ef417ded3d]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:02:38.867028 #41684]  INFO -- : [26f8e10f-7c72-4b9b-95f6-71ef417ded3d]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 625)
+I, [2021-08-04T10:02:38.875754 #41684]  INFO -- : [26f8e10f-7c72-4b9b-95f6-71ef417ded3d] Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 2096)
+I, [2021-08-04T10:02:38.905253 #41684]  INFO -- : [f3c61415-b8e3-4a40-845c-5f392948934b] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 10:02:38 +0800
+F, [2021-08-04T10:02:38.906129 #41684] FATAL -- : [f3c61415-b8e3-4a40-845c-5f392948934b]   
+[f3c61415-b8e3-4a40-845c-5f392948934b] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[f3c61415-b8e3-4a40-845c-5f392948934b]   
+[f3c61415-b8e3-4a40-845c-5f392948934b] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[f3c61415-b8e3-4a40-845c-5f392948934b] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[f3c61415-b8e3-4a40-845c-5f392948934b] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[f3c61415-b8e3-4a40-845c-5f392948934b] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[f3c61415-b8e3-4a40-845c-5f392948934b] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[f3c61415-b8e3-4a40-845c-5f392948934b] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[f3c61415-b8e3-4a40-845c-5f392948934b] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[f3c61415-b8e3-4a40-845c-5f392948934b] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[f3c61415-b8e3-4a40-845c-5f392948934b] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T10:03:53.331751 #41684]  INFO -- : [b205b889-307d-48c9-a9f7-2d9190891fd4] Started GET "/" for 127.0.0.1 at 2021-08-04 10:03:53 +0800
+I, [2021-08-04T10:03:53.332600 #41684]  INFO -- : [b205b889-307d-48c9-a9f7-2d9190891fd4] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:03:53.333687 #41684]  INFO -- : [b205b889-307d-48c9-a9f7-2d9190891fd4]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:03:53.334184 #41684]  INFO -- : [b205b889-307d-48c9-a9f7-2d9190891fd4]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 185)
+I, [2021-08-04T10:03:53.334753 #41684]  INFO -- : [b205b889-307d-48c9-a9f7-2d9190891fd4] Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 843)
+I, [2021-08-04T10:03:53.361218 #41684]  INFO -- : [58445c1a-7678-4441-befe-4184b254b0ab] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 10:03:53 +0800
+F, [2021-08-04T10:03:53.361787 #41684] FATAL -- : [58445c1a-7678-4441-befe-4184b254b0ab]   
+[58445c1a-7678-4441-befe-4184b254b0ab] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[58445c1a-7678-4441-befe-4184b254b0ab]   
+[58445c1a-7678-4441-befe-4184b254b0ab] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[58445c1a-7678-4441-befe-4184b254b0ab] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[58445c1a-7678-4441-befe-4184b254b0ab] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[58445c1a-7678-4441-befe-4184b254b0ab] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[58445c1a-7678-4441-befe-4184b254b0ab] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[58445c1a-7678-4441-befe-4184b254b0ab] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[58445c1a-7678-4441-befe-4184b254b0ab] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[58445c1a-7678-4441-befe-4184b254b0ab] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[58445c1a-7678-4441-befe-4184b254b0ab] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[58445c1a-7678-4441-befe-4184b254b0ab] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T10:03:56.303903 #41684]  INFO -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:03:56 +0800
+I, [2021-08-04T10:03:56.304670 #41684]  INFO -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:03:56.304726 #41684]  INFO -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:03:56.306461 #41684] DEBUG -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:03:56.307251 #41684] DEBUG -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   [1m[36mBinReport Load (0.4ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:03:56.308568 #41684] DEBUG -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:03:56.308967 #41684] DEBUG -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('35be73b2-0443-480c-b7fa-47aabfecc229', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:03:56', '2021-08-04 10:03:56')[0m
+D, [2021-08-04T10:03:56.309417 #41684] DEBUG -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:03:56.309782 #41684]  INFO -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:03:56.310219 #41684]  INFO -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 188)
+I, [2021-08-04T10:03:56.310760 #41684]  INFO -- : [d0a093c8-9cb6-48d4-ba2b-ad62f5f0622d] Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 1.4ms | Allocations: 1728)
+I, [2021-08-04T10:03:56.336538 #41684]  INFO -- : [4d0619aa-f67d-4383-8113-fed3cf553545] Started GET "/assets/bootstrap/scss/bootstrap" for 127.0.0.1 at 2021-08-04 10:03:56 +0800
+F, [2021-08-04T10:03:56.337123 #41684] FATAL -- : [4d0619aa-f67d-4383-8113-fed3cf553545]   
+[4d0619aa-f67d-4383-8113-fed3cf553545] ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/scss/bootstrap"):
+[4d0619aa-f67d-4383-8113-fed3cf553545]   
+[4d0619aa-f67d-4383-8113-fed3cf553545] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[4d0619aa-f67d-4383-8113-fed3cf553545] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[4d0619aa-f67d-4383-8113-fed3cf553545] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[4d0619aa-f67d-4383-8113-fed3cf553545] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[4d0619aa-f67d-4383-8113-fed3cf553545] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[4d0619aa-f67d-4383-8113-fed3cf553545] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[4d0619aa-f67d-4383-8113-fed3cf553545] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[4d0619aa-f67d-4383-8113-fed3cf553545] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[4d0619aa-f67d-4383-8113-fed3cf553545] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+I, [2021-08-04T10:14:04.885827 #41965]  INFO -- : [14617e01-4caa-48fa-bcc4-ca0118338ca9] Started GET "/" for 127.0.0.1 at 2021-08-04 10:14:04 +0800
+I, [2021-08-04T10:14:04.888047 #41965]  INFO -- : [14617e01-4caa-48fa-bcc4-ca0118338ca9] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:14:04.897512 #41965]  INFO -- : [14617e01-4caa-48fa-bcc4-ca0118338ca9]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:14:04.899050 #41965]  INFO -- : [14617e01-4caa-48fa-bcc4-ca0118338ca9]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 644)
+I, [2021-08-04T10:14:04.900483 #41965]  INFO -- : [14617e01-4caa-48fa-bcc4-ca0118338ca9] Completed 200 OK in 12ms (Views: 5.1ms | Allocations: 2578)
+I, [2021-08-04T10:14:04.914222 #41965]  INFO -- : [031b761e-c91c-4e57-9172-6903691825a8] Started GET "/" for 127.0.0.1 at 2021-08-04 10:14:04 +0800
+I, [2021-08-04T10:14:04.914807 #41965]  INFO -- : [031b761e-c91c-4e57-9172-6903691825a8] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:14:04.915586 #41965]  INFO -- : [031b761e-c91c-4e57-9172-6903691825a8]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:14:04.916022 #41965]  INFO -- : [031b761e-c91c-4e57-9172-6903691825a8]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 184)
+I, [2021-08-04T10:14:04.916578 #41965]  INFO -- : [031b761e-c91c-4e57-9172-6903691825a8] Completed 200 OK in 2ms (Views: 1.2ms | Allocations: 842)
+I, [2021-08-04T10:14:11.321557 #41965]  INFO -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:14:11 +0800
+I, [2021-08-04T10:14:11.322380 #41965]  INFO -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:14:11.322453 #41965]  INFO -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:14:11.340617 #41965] DEBUG -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   [1m[36mBinReport Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:14:11.342197 #41965] DEBUG -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   [1m[36mBinReport Load (0.8ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:14:11.369137 #41965] DEBUG -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:14:11.369680 #41965] DEBUG -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   [1m[36mSearchHistory Create (0.4ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('3d7981f2-342f-4f8f-9de0-2a6afed59c30', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:14:11', '2021-08-04 10:14:11')[0m
+D, [2021-08-04T10:14:11.371673 #41965] DEBUG -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:14:11.372096 #41965]  INFO -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:14:11.372561 #41965]  INFO -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 189)
+I, [2021-08-04T10:14:11.373140 #41965]  INFO -- : [79f4f308-196f-4a7f-a47d-044d9b4b9bcd] Completed 200 OK in 51ms (Views: 1.2ms | ActiveRecord: 16.1ms | Allocations: 13620)
+I, [2021-08-04T10:16:52.228720 #41965]  INFO -- : [879a9130-1522-4353-b552-52ea8544c3ec] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:16:52 +0800
+I, [2021-08-04T10:16:52.229880 #41965]  INFO -- : [879a9130-1522-4353-b552-52ea8544c3ec] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:16:52.229985 #41965]  INFO -- : [879a9130-1522-4353-b552-52ea8544c3ec]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:16:52.231842 #41965] DEBUG -- : [879a9130-1522-4353-b552-52ea8544c3ec]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:16:52.248237 #41965] DEBUG -- : [879a9130-1522-4353-b552-52ea8544c3ec]   [1m[36mBinReport Load (1.5ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:16:52.250953 #41965] DEBUG -- : [879a9130-1522-4353-b552-52ea8544c3ec]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:16:52.251353 #41965] DEBUG -- : [879a9130-1522-4353-b552-52ea8544c3ec]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('5022678c-cc0c-4f70-9f5a-84356f5e868d', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:16:52', '2021-08-04 10:16:52')[0m
+D, [2021-08-04T10:16:52.252336 #41965] DEBUG -- : [879a9130-1522-4353-b552-52ea8544c3ec]   [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:16:52.252827 #41965]  INFO -- : [879a9130-1522-4353-b552-52ea8544c3ec]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:16:52.253552 #41965]  INFO -- : [879a9130-1522-4353-b552-52ea8544c3ec]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 189)
+I, [2021-08-04T10:16:52.254382 #41965]  INFO -- : [879a9130-1522-4353-b552-52ea8544c3ec] Completed 200 OK in 24ms (Views: 1.8ms | ActiveRecord: 3.1ms | Allocations: 1743)
+I, [2021-08-04T10:16:54.313202 #41965]  INFO -- : [502336b6-15c6-4405-a5a0-71c89842624f] Started GET "/" for 127.0.0.1 at 2021-08-04 10:16:54 +0800
+I, [2021-08-04T10:16:54.313938 #41965]  INFO -- : [502336b6-15c6-4405-a5a0-71c89842624f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:16:54.314976 #41965]  INFO -- : [502336b6-15c6-4405-a5a0-71c89842624f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:16:54.315816 #41965]  INFO -- : [502336b6-15c6-4405-a5a0-71c89842624f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 178)
+I, [2021-08-04T10:16:54.316730 #41965]  INFO -- : [502336b6-15c6-4405-a5a0-71c89842624f] Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 837)
+I, [2021-08-04T10:16:59.493074 #41965]  INFO -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:16:59 +0800
+I, [2021-08-04T10:16:59.493957 #41965]  INFO -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:16:59.494044 #41965]  INFO -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:16:59.496093 #41965] DEBUG -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:16:59.497015 #41965] DEBUG -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:16:59.499413 #41965] DEBUG -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:16:59.499815 #41965] DEBUG -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('1d31f5ba-bee8-44e6-880b-06ab5330767b', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:16:59', '2021-08-04 10:16:59')[0m
+D, [2021-08-04T10:16:59.500346 #41965] DEBUG -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:16:59.500992 #41965]  INFO -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:16:59.501945 #41965]  INFO -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 188)
+I, [2021-08-04T10:16:59.502640 #41965]  INFO -- : [df3ebe69-35db-49d8-b586-ff5b5e43abf0] Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 1.4ms | Allocations: 1728)
+I, [2021-08-04T10:19:26.477818 #42053]  INFO -- : [a6816b33-231e-40de-aa81-4a7c7641f6b8] Started GET "/" for 127.0.0.1 at 2021-08-04 10:19:26 +0800
+I, [2021-08-04T10:19:26.479742 #42053]  INFO -- : [a6816b33-231e-40de-aa81-4a7c7641f6b8] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:19:26.488201 #42053]  INFO -- : [a6816b33-231e-40de-aa81-4a7c7641f6b8]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:19:26.490081 #42053]  INFO -- : [a6816b33-231e-40de-aa81-4a7c7641f6b8]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 644)
+I, [2021-08-04T10:19:26.491284 #42053]  INFO -- : [a6816b33-231e-40de-aa81-4a7c7641f6b8] Completed 200 OK in 11ms (Views: 5.9ms | Allocations: 2572)
+I, [2021-08-04T10:19:27.529587 #42053]  INFO -- : [737287ad-41f2-4e22-bb9a-c71aa9c643ca] Started GET "/" for 127.0.0.1 at 2021-08-04 10:19:27 +0800
+I, [2021-08-04T10:19:27.530478 #42053]  INFO -- : [737287ad-41f2-4e22-bb9a-c71aa9c643ca] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:19:27.531856 #42053]  INFO -- : [737287ad-41f2-4e22-bb9a-c71aa9c643ca]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:19:27.532756 #42053]  INFO -- : [737287ad-41f2-4e22-bb9a-c71aa9c643ca]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 185)
+I, [2021-08-04T10:19:27.549362 #42053]  INFO -- : [737287ad-41f2-4e22-bb9a-c71aa9c643ca] Completed 200 OK in 19ms (Views: 17.7ms | Allocations: 835)
+I, [2021-08-04T10:19:29.800651 #42053]  INFO -- : [5b521a74-7941-4825-8069-806e00e6a87f] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:19:29 +0800
+I, [2021-08-04T10:19:29.801693 #42053]  INFO -- : [5b521a74-7941-4825-8069-806e00e6a87f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:19:29.801770 #42053]  INFO -- : [5b521a74-7941-4825-8069-806e00e6a87f]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:19:29.810123 #42053] DEBUG -- : [5b521a74-7941-4825-8069-806e00e6a87f]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:19:29.810749 #42053] DEBUG -- : [5b521a74-7941-4825-8069-806e00e6a87f]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:19:29.831385 #42053] DEBUG -- : [5b521a74-7941-4825-8069-806e00e6a87f]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:19:29.831880 #42053] DEBUG -- : [5b521a74-7941-4825-8069-806e00e6a87f]   [1m[36mSearchHistory Create (0.4ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('a8344714-f1eb-4a3f-99d0-04c625ca57ec', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:19:29', '2021-08-04 10:19:29')[0m
+D, [2021-08-04T10:19:29.832595 #42053] DEBUG -- : [5b521a74-7941-4825-8069-806e00e6a87f]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:19:29.833180 #42053]  INFO -- : [5b521a74-7941-4825-8069-806e00e6a87f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:19:29.833785 #42053]  INFO -- : [5b521a74-7941-4825-8069-806e00e6a87f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 189)
+I, [2021-08-04T10:19:29.834335 #42053]  INFO -- : [5b521a74-7941-4825-8069-806e00e6a87f] Completed 200 OK in 32ms (Views: 1.4ms | ActiveRecord: 3.6ms | Allocations: 13612)
+I, [2021-08-04T10:20:18.885304 #42053]  INFO -- : [ed3fa26f-61de-42be-8726-5889ef6c9090] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:20:18 +0800
+I, [2021-08-04T10:20:18.886111 #42053]  INFO -- : [ed3fa26f-61de-42be-8726-5889ef6c9090] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:20:18.886208 #42053]  INFO -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:20:18.888191 #42053] DEBUG -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   [1m[36mBinReport Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:20:18.889794 #42053] DEBUG -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   [1m[36mBinReport Load (1.0ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:20:18.907728 #42053] DEBUG -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:20:18.908368 #42053] DEBUG -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   [1m[36mSearchHistory Create (0.4ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('3352e59a-509d-4a83-a964-070d365ac6bc', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:20:18', '2021-08-04 10:20:18')[0m
+D, [2021-08-04T10:20:18.909577 #42053] DEBUG -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:20:18.910227 #42053]  INFO -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:20:18.910637 #42053]  INFO -- : [ed3fa26f-61de-42be-8726-5889ef6c9090]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 189)
+I, [2021-08-04T10:20:18.911164 #42053]  INFO -- : [ed3fa26f-61de-42be-8726-5889ef6c9090] Completed 200 OK in 25ms (Views: 1.2ms | ActiveRecord: 3.2ms | Allocations: 1745)
+I, [2021-08-04T10:20:20.973433 #42053]  INFO -- : [cceacfb4-7393-4620-b5b8-24302ecf7ae2] Started GET "/" for 127.0.0.1 at 2021-08-04 10:20:20 +0800
+I, [2021-08-04T10:20:20.974791 #42053]  INFO -- : [cceacfb4-7393-4620-b5b8-24302ecf7ae2] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:20:20.976317 #42053]  INFO -- : [cceacfb4-7393-4620-b5b8-24302ecf7ae2]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:20:20.977188 #42053]  INFO -- : [cceacfb4-7393-4620-b5b8-24302ecf7ae2]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 178)
+I, [2021-08-04T10:20:20.977840 #42053]  INFO -- : [cceacfb4-7393-4620-b5b8-24302ecf7ae2] Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 827)
+I, [2021-08-04T10:20:23.136573 #42053]  INFO -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:20:23 +0800
+I, [2021-08-04T10:20:23.137314 #42053]  INFO -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:20:23.137467 #42053]  INFO -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:20:23.139039 #42053] DEBUG -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:20:23.139943 #42053] DEBUG -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:20:23.141853 #42053] DEBUG -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:20:23.142218 #42053] DEBUG -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('0a52412f-04d7-4a11-8280-935a8e09655c', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:20:23', '2021-08-04 10:20:23')[0m
+D, [2021-08-04T10:20:23.142732 #42053] DEBUG -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:20:23.143230 #42053]  INFO -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:20:23.143655 #42053]  INFO -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 188)
+I, [2021-08-04T10:20:23.144238 #42053]  INFO -- : [5bd6e8ee-f84a-4a24-8caa-93a7d9713f3c] Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 1.3ms | Allocations: 1714)
+I, [2021-08-04T10:20:31.996539 #42079]  INFO -- : [32c49103-fffd-42e1-a01b-9e382ff9da44] Started GET "/" for 127.0.0.1 at 2021-08-04 10:20:31 +0800
+I, [2021-08-04T10:20:31.998609 #42079]  INFO -- : [32c49103-fffd-42e1-a01b-9e382ff9da44] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:20:32.005447 #42079]  INFO -- : [32c49103-fffd-42e1-a01b-9e382ff9da44]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:20:32.007211 #42079]  INFO -- : [32c49103-fffd-42e1-a01b-9e382ff9da44]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 644)
+I, [2021-08-04T10:20:32.008257 #42079]  INFO -- : [32c49103-fffd-42e1-a01b-9e382ff9da44] Completed 200 OK in 9ms (Views: 4.3ms | Allocations: 2578)
+I, [2021-08-04T10:20:35.510304 #42079]  INFO -- : [750c55bd-166e-4b03-a66e-487e93ded417] Started GET "/bin_reports?query%5Btext%5D=96172210214&commit=Search" for 127.0.0.1 at 2021-08-04 10:20:35 +0800
+I, [2021-08-04T10:20:35.511088 #42079]  INFO -- : [750c55bd-166e-4b03-a66e-487e93ded417] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:20:35.511167 #42079]  INFO -- : [750c55bd-166e-4b03-a66e-487e93ded417]   Parameters: {"query"=>{"text"=>"96172210214"}, "commit"=>"Search"}
+D, [2021-08-04T10:20:35.518605 #42079] DEBUG -- : [750c55bd-166e-4b03-a66e-487e93ded417]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172210214') LIMIT 1[0m
+D, [2021-08-04T10:20:35.519262 #42079] DEBUG -- : [750c55bd-166e-4b03-a66e-487e93ded417]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172210214')[0m
+D, [2021-08-04T10:20:35.539606 #42079] DEBUG -- : [750c55bd-166e-4b03-a66e-487e93ded417]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:20:35.540058 #42079] DEBUG -- : [750c55bd-166e-4b03-a66e-487e93ded417]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('f20a491d-8c1e-45ae-a44f-e00c1836c727', '2020/12/29 22:14', 'AHB Cell Pack', 'AHB74490HPC', '96172210214', 0.3533, 'B3', '2021-08-04 10:20:35', '2021-08-04 10:20:35')[0m
+D, [2021-08-04T10:20:35.540666 #42079] DEBUG -- : [750c55bd-166e-4b03-a66e-487e93ded417]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:20:35.541126 #42079]  INFO -- : [750c55bd-166e-4b03-a66e-487e93ded417]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:20:35.541701 #42079]  INFO -- : [750c55bd-166e-4b03-a66e-487e93ded417]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 195)
+I, [2021-08-04T10:20:35.542362 #42079]  INFO -- : [750c55bd-166e-4b03-a66e-487e93ded417] Completed 200 OK in 31ms (Views: 1.4ms | ActiveRecord: 3.6ms | Allocations: 13621)
+I, [2021-08-04T10:21:44.239081 #42090]  INFO -- : [34efc33a-bfca-4097-98d4-39cb2a497af0] Started GET "/" for 127.0.0.1 at 2021-08-04 10:21:44 +0800
+I, [2021-08-04T10:21:44.241305 #42090]  INFO -- : [34efc33a-bfca-4097-98d4-39cb2a497af0] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:21:44.282057 #42090]  INFO -- : [34efc33a-bfca-4097-98d4-39cb2a497af0]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:21:44.283218 #42090]  INFO -- : [34efc33a-bfca-4097-98d4-39cb2a497af0]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 644)
+I, [2021-08-04T10:21:44.284235 #42090]  INFO -- : [34efc33a-bfca-4097-98d4-39cb2a497af0] Completed 200 OK in 10ms (Views: 3.9ms | Allocations: 2572)
+I, [2021-08-04T10:21:45.905741 #42090]  INFO -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:21:45 +0800
+I, [2021-08-04T10:21:45.906571 #42090]  INFO -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:21:45.906694 #42090]  INFO -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:21:45.914519 #42090] DEBUG -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:21:45.915136 #42090] DEBUG -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:21:45.938067 #42090] DEBUG -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:21:45.938380 #42090] DEBUG -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('a277ef07-a0c3-41e3-8174-4164c453fbd4', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:21:45', '2021-08-04 10:21:45')[0m
+D, [2021-08-04T10:21:45.938907 #42090] DEBUG -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:21:45.939346 #42090]  INFO -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:21:45.939878 #42090]  INFO -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 195)
+I, [2021-08-04T10:21:45.940434 #42090]  INFO -- : [7eb3c723-f4d1-4efc-ae0a-0218f10c7566] Completed 200 OK in 34ms (Views: 1.3ms | ActiveRecord: 3.9ms | Allocations: 13633)
+I, [2021-08-04T10:22:06.072124 #42107]  INFO -- : [0b76fe16-07f9-4d9f-a03e-f71ff72f210a] Started GET "/" for 127.0.0.1 at 2021-08-04 10:22:06 +0800
+I, [2021-08-04T10:22:06.074079 #42107]  INFO -- : [0b76fe16-07f9-4d9f-a03e-f71ff72f210a] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:22:06.081150 #42107]  INFO -- : [0b76fe16-07f9-4d9f-a03e-f71ff72f210a]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:22:06.082410 #42107]  INFO -- : [0b76fe16-07f9-4d9f-a03e-f71ff72f210a]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 644)
+I, [2021-08-04T10:22:06.083487 #42107]  INFO -- : [0b76fe16-07f9-4d9f-a03e-f71ff72f210a] Completed 200 OK in 9ms (Views: 4.0ms | Allocations: 2586)
+I, [2021-08-04T10:22:09.282160 #42107]  INFO -- : [b5024105-7893-4d04-bc34-1ed0eddcf636] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:22:09 +0800
+I, [2021-08-04T10:22:09.283077 #42107]  INFO -- : [b5024105-7893-4d04-bc34-1ed0eddcf636] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:22:09.283155 #42107]  INFO -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:22:09.290826 #42107] DEBUG -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   [1m[36mBinReport Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:22:09.291399 #42107] DEBUG -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:22:09.312713 #42107] DEBUG -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:22:09.313082 #42107] DEBUG -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('68ad968a-2bd4-4628-ba81-4a75551a6c48', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:22:09', '2021-08-04 10:22:09')[0m
+D, [2021-08-04T10:22:09.313634 #42107] DEBUG -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:22:09.314072 #42107]  INFO -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:22:09.314568 #42107]  INFO -- : [b5024105-7893-4d04-bc34-1ed0eddcf636]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 195)
+I, [2021-08-04T10:22:09.315102 #42107]  INFO -- : [b5024105-7893-4d04-bc34-1ed0eddcf636] Completed 200 OK in 32ms (Views: 1.2ms | ActiveRecord: 3.3ms | Allocations: 13627)
+I, [2021-08-04T10:24:39.940812 #42157]  INFO -- : [d94ed545-117d-4d1c-ac82-f8d4e490fdaa] Started GET "/" for 127.0.0.1 at 2021-08-04 10:24:39 +0800
+I, [2021-08-04T10:24:39.942749 #42157]  INFO -- : [d94ed545-117d-4d1c-ac82-f8d4e490fdaa] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:24:39.950476 #42157]  INFO -- : [d94ed545-117d-4d1c-ac82-f8d4e490fdaa]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:24:39.951359 #42157]  INFO -- : [d94ed545-117d-4d1c-ac82-f8d4e490fdaa]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 480)
+I, [2021-08-04T10:24:39.951515 #42157]  INFO -- : [d94ed545-117d-4d1c-ac82-f8d4e490fdaa] Completed 500 Internal Server Error in 9ms (Allocations: 1930)
+F, [2021-08-04T10:24:39.952396 #42157] FATAL -- : [d94ed545-117d-4d1c-ac82-f8d4e490fdaa]   
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Search by SN</h1>
+<%= form_for :query, url: bin_reports_path, method: :get do |form| %>
+  <div class="field">
+    <%= form.text_field :text, class: 'form-control form-control-lg' placeholder: 'Search by SN...', value: params.dig('query', 'text') %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit 'Search' %>
+  </div>
+<% end  %>
+
+<h1>Search Results</h1>
+<p><%= link_to "Back", root_path %></p>
+
+<% if @bin_reports %>
+  <% if @bin_reports.empty? %>
+      <p>No result were found.</p>
+  <% else %>
+      <table class="table table-hover">
+          <thead class="thead-dark">
+              <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Model</th>
+                  <th scope="col">SN</th>
+                  <th scope="col">Current</th>
+                  <th scope="col">BIN</th>
+                  <th colspan="5"></th>
+              </tr>
+          </thead>
+
+          <tbody>
+              <% @bin_reports.each do |report| %>
+              <tr scope="row">
+                  <td><%= report.name %></td>
+                  <td><%= report.model %></td>
+                  <td><%= report.sn %></td>
+                  <td><%= report.current %></td>
+                  <td><%= report.bin %></td>
+              </tr>
+              <% end %>
+          </tbody>
+  </table>
+  <% end %>
+<% end %>
+):
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 1:    <h1>Search by SN</h1>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 2:    <%= form_for :query, url: bin_reports_path, method: :get do |form| %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 3:      <div class="field">
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 4:        <%= form.text_field :text, class: 'form-control form-control-lg' placeholder: 'Search by SN...', value: params.dig('query', 'text') %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 5:      </div>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 6:    
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 7:      <div class="actions">
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 8:        <%= form.submit 'Search' %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 9:      </div>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 10:    <% end  %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 11:    
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 12:    <h1>Search Results</h1>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 13:    <p><%= link_to "Back", root_path %></p>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 14:    
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 15:    <% if @bin_reports %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 16:      <% if @bin_reports.empty? %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 17:          <p>No result were found.</p>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 18:      <% else %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 19:          <table class="table table-hover">
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 20:              <thead class="thead-dark">
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 21:                  <tr>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 22:                      <th scope="col">Name</th>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 23:                      <th scope="col">Model</th>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 24:                      <th scope="col">SN</th>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 25:                      <th scope="col">Current</th>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 26:                      <th scope="col">BIN</th>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 27:                      <th colspan="5"></th>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 28:                  </tr>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 29:              </thead>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 30:    
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 31:              <tbody>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 32:                  <% @bin_reports.each do |report| %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 33:                  <tr scope="row">
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 34:                      <td><%= report.name %></td>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 35:                      <td><%= report.model %></td>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 36:                      <td><%= report.sn %></td>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 37:                      <td><%= report.current %></td>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 38:                      <td><%= report.bin %></td>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 39:                  </tr>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 40:                  <% end %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 41:              </tbody>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 42:      </table>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 43:      <% end %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] 44:    <% end %>
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa]   
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected ',', expecting ')'
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected ',', expecting ')'
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected ',', expecting ')'
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+[d94ed545-117d-4d1c-ac82-f8d4e490fdaa] app/views/bin_reports/index.html.erb:4: syntax error, unexpected ',', expecting ')'
+I, [2021-08-04T10:25:52.099602 #42206]  INFO -- : [3604d64f-866d-424f-9254-123d901840ba] Started GET "/" for 127.0.0.1 at 2021-08-04 10:25:52 +0800
+I, [2021-08-04T10:25:52.101351 #42206]  INFO -- : [3604d64f-866d-424f-9254-123d901840ba] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:25:52.108693 #42206]  INFO -- : [3604d64f-866d-424f-9254-123d901840ba]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:25:52.110192 #42206]  INFO -- : [3604d64f-866d-424f-9254-123d901840ba]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 654)
+I, [2021-08-04T10:25:52.111187 #42206]  INFO -- : [3604d64f-866d-424f-9254-123d901840ba] Completed 200 OK in 10ms (Views: 4.1ms | Allocations: 2580)
+I, [2021-08-04T10:25:58.617862 #42206]  INFO -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:25:58 +0800
+I, [2021-08-04T10:25:58.618777 #42206]  INFO -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:25:58.618855 #42206]  INFO -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:25:58.625934 #42206] DEBUG -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   [1m[36mBinReport Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:25:58.626590 #42206] DEBUG -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:25:58.647729 #42206] DEBUG -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:25:58.648180 #42206] DEBUG -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('9cc015b6-8b4b-4aae-bb5b-3fb2c7fb5bbb', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:25:58', '2021-08-04 10:25:58')[0m
+D, [2021-08-04T10:25:58.649968 #42206] DEBUG -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:25:58.650631 #42206]  INFO -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:25:58.651371 #42206]  INFO -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 202)
+I, [2021-08-04T10:25:58.652155 #42206]  INFO -- : [391ec20b-f7ae-42c9-b96b-e40a928ef2a8] Completed 200 OK in 33ms (Views: 1.8ms | ActiveRecord: 4.8ms | Allocations: 13628)
+I, [2021-08-04T10:28:53.732065 #42246]  INFO -- : [ced14292-d19f-495d-9b43-1ca3ef69ad5f] Started GET "/" for 127.0.0.1 at 2021-08-04 10:28:53 +0800
+I, [2021-08-04T10:28:53.734581 #42246]  INFO -- : [ced14292-d19f-495d-9b43-1ca3ef69ad5f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:28:53.742058 #42246]  INFO -- : [ced14292-d19f-495d-9b43-1ca3ef69ad5f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:28:53.743765 #42246]  INFO -- : [ced14292-d19f-495d-9b43-1ca3ef69ad5f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 665)
+I, [2021-08-04T10:28:53.744791 #42246]  INFO -- : [ced14292-d19f-495d-9b43-1ca3ef69ad5f] Completed 200 OK in 10ms (Views: 4.4ms | Allocations: 2587)
+I, [2021-08-04T10:29:19.272993 #42246]  INFO -- : [54ab2f59-c00a-485d-9114-37a8fe096ad6] Started GET "/" for 127.0.0.1 at 2021-08-04 10:29:19 +0800
+I, [2021-08-04T10:29:19.273859 #42246]  INFO -- : [54ab2f59-c00a-485d-9114-37a8fe096ad6] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:29:19.274883 #42246]  INFO -- : [54ab2f59-c00a-485d-9114-37a8fe096ad6]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:29:19.275418 #42246]  INFO -- : [54ab2f59-c00a-485d-9114-37a8fe096ad6]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 200)
+I, [2021-08-04T10:29:19.276005 #42246]  INFO -- : [54ab2f59-c00a-485d-9114-37a8fe096ad6] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 856)
+I, [2021-08-04T10:29:21.453201 #42246]  INFO -- : [d253b87f-c929-4f53-b270-2e13f8287b3f] Started GET "/" for 127.0.0.1 at 2021-08-04 10:29:21 +0800
+I, [2021-08-04T10:29:21.453878 #42246]  INFO -- : [d253b87f-c929-4f53-b270-2e13f8287b3f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:29:21.454965 #42246]  INFO -- : [d253b87f-c929-4f53-b270-2e13f8287b3f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:29:21.455533 #42246]  INFO -- : [d253b87f-c929-4f53-b270-2e13f8287b3f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 194)
+I, [2021-08-04T10:29:21.456353 #42246]  INFO -- : [d253b87f-c929-4f53-b270-2e13f8287b3f] Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 851)
+I, [2021-08-04T10:29:22.981382 #42246]  INFO -- : [6c864974-f92a-4e6a-9826-7405ba5c7290] Started GET "/" for 127.0.0.1 at 2021-08-04 10:29:22 +0800
+I, [2021-08-04T10:29:22.982030 #42246]  INFO -- : [6c864974-f92a-4e6a-9826-7405ba5c7290] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:29:22.982925 #42246]  INFO -- : [6c864974-f92a-4e6a-9826-7405ba5c7290]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:29:22.983393 #42246]  INFO -- : [6c864974-f92a-4e6a-9826-7405ba5c7290]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 194)
+I, [2021-08-04T10:29:22.984034 #42246]  INFO -- : [6c864974-f92a-4e6a-9826-7405ba5c7290] Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 847)
+I, [2021-08-04T10:31:50.315301 #42292]  INFO -- : [e2a406ea-2eef-424d-bdff-ea89813ae60c] Started GET "/" for 127.0.0.1 at 2021-08-04 10:31:50 +0800
+I, [2021-08-04T10:31:50.316936 #42292]  INFO -- : [e2a406ea-2eef-424d-bdff-ea89813ae60c] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:31:50.324186 #42292]  INFO -- : [e2a406ea-2eef-424d-bdff-ea89813ae60c]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:31:50.325479 #42292]  INFO -- : [e2a406ea-2eef-424d-bdff-ea89813ae60c]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 669)
+I, [2021-08-04T10:31:50.326511 #42292]  INFO -- : [e2a406ea-2eef-424d-bdff-ea89813ae60c] Completed 200 OK in 9ms (Views: 4.2ms | Allocations: 2609)
+I, [2021-08-04T10:32:05.845933 #42292]  INFO -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:32:05 +0800
+I, [2021-08-04T10:32:05.847157 #42292]  INFO -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:32:05.847291 #42292]  INFO -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:32:05.854589 #42292] DEBUG -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:32:05.855224 #42292] DEBUG -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:32:05.876419 #42292] DEBUG -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:32:05.876807 #42292] DEBUG -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('858ac7e1-d8e6-494e-a6b5-093f741ec0d7', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:32:05', '2021-08-04 10:32:05')[0m
+D, [2021-08-04T10:32:05.877402 #42292] DEBUG -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:32:05.877879 #42292]  INFO -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:32:05.878428 #42292]  INFO -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 210)
+I, [2021-08-04T10:32:05.879085 #42292]  INFO -- : [350da5e4-3451-46c1-ac92-a3a9e4d0635e] Completed 200 OK in 32ms (Views: 1.4ms | ActiveRecord: 4.1ms | Allocations: 13662)
+I, [2021-08-04T10:38:36.169218 #42394]  INFO -- : [e7ab12da-1c39-4d93-9699-81dc9da860e0] Started GET "/" for 127.0.0.1 at 2021-08-04 10:38:36 +0800
+I, [2021-08-04T10:38:36.171265 #42394]  INFO -- : [e7ab12da-1c39-4d93-9699-81dc9da860e0] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:38:36.178693 #42394]  INFO -- : [e7ab12da-1c39-4d93-9699-81dc9da860e0]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:38:36.179939 #42394]  INFO -- : [e7ab12da-1c39-4d93-9699-81dc9da860e0]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 676)
+I, [2021-08-04T10:38:36.181307 #42394]  INFO -- : [e7ab12da-1c39-4d93-9699-81dc9da860e0] Completed 200 OK in 10ms (Views: 4.4ms | Allocations: 2606)
+I, [2021-08-04T10:40:34.482585 #42425]  INFO -- : [1987d842-b09c-422c-b727-ba529ae1097b] Started GET "/" for 127.0.0.1 at 2021-08-04 10:40:34 +0800
+I, [2021-08-04T10:40:34.484437 #42425]  INFO -- : [1987d842-b09c-422c-b727-ba529ae1097b] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:40:34.491530 #42425]  INFO -- : [1987d842-b09c-422c-b727-ba529ae1097b]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:40:34.492646 #42425]  INFO -- : [1987d842-b09c-422c-b727-ba529ae1097b]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 669)
+I, [2021-08-04T10:40:34.494270 #42425]  INFO -- : [1987d842-b09c-422c-b727-ba529ae1097b] Completed 200 OK in 10ms (Views: 4.3ms | Allocations: 2589)
+I, [2021-08-04T10:42:07.616689 #42457]  INFO -- : [ab80ed80-dbb4-4ec5-88fd-dd7383282c5f] Started GET "/" for 127.0.0.1 at 2021-08-04 10:42:07 +0800
+I, [2021-08-04T10:42:07.618178 #42457]  INFO -- : [ab80ed80-dbb4-4ec5-88fd-dd7383282c5f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:42:07.626100 #42457]  INFO -- : [ab80ed80-dbb4-4ec5-88fd-dd7383282c5f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:42:07.627921 #42457]  INFO -- : [ab80ed80-dbb4-4ec5-88fd-dd7383282c5f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 684)
+I, [2021-08-04T10:42:07.629324 #42457]  INFO -- : [ab80ed80-dbb4-4ec5-88fd-dd7383282c5f] Completed 200 OK in 11ms (Views: 4.5ms | Allocations: 2604)
+I, [2021-08-04T10:45:21.061795 #42525]  INFO -- : [f364f74d-03a8-4d1a-9d83-29f9d51bea30] Started GET "/" for 127.0.0.1 at 2021-08-04 10:45:21 +0800
+I, [2021-08-04T10:45:21.063763 #42525]  INFO -- : [f364f74d-03a8-4d1a-9d83-29f9d51bea30] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:45:21.071924 #42525]  INFO -- : [f364f74d-03a8-4d1a-9d83-29f9d51bea30]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:45:21.073064 #42525]  INFO -- : [f364f74d-03a8-4d1a-9d83-29f9d51bea30]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 616)
+I, [2021-08-04T10:45:21.073213 #42525]  INFO -- : [f364f74d-03a8-4d1a-9d83-29f9d51bea30] Completed 500 Internal Server Error in 9ms (Allocations: 2059)
+F, [2021-08-04T10:45:21.073948 #42525] FATAL -- : [f364f74d-03a8-4d1a-9d83-29f9d51bea30]   
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30] ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]     3:   <%= form_for :query, url: bin_reports_path, method: :get do |form| %>
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]     4:     <div class="form-row">
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]     5:       <div class="col-md-6 mb-3">
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]     6:         <%= form.text_field :text, params[:text], placeholder: 'Search by SN...', value: params.dig('query', 'text'), class: 'form-control' %>
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]     7:       </div>
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]     8:     </div>
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]     9: 
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30]   
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30] app/views/bin_reports/index.html.erb:6
+[f364f74d-03a8-4d1a-9d83-29f9d51bea30] app/views/bin_reports/index.html.erb:3
+I, [2021-08-04T10:45:34.793440 #42532]  INFO -- : [8152fdde-07a7-4346-a8cd-4e3afeffdcb6] Started GET "/" for 127.0.0.1 at 2021-08-04 10:45:34 +0800
+I, [2021-08-04T10:45:34.794930 #42532]  INFO -- : [8152fdde-07a7-4346-a8cd-4e3afeffdcb6] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:45:34.801667 #42532]  INFO -- : [8152fdde-07a7-4346-a8cd-4e3afeffdcb6]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:45:34.802888 #42532]  INFO -- : [8152fdde-07a7-4346-a8cd-4e3afeffdcb6]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 684)
+I, [2021-08-04T10:45:34.803866 #42532]  INFO -- : [8152fdde-07a7-4346-a8cd-4e3afeffdcb6] Completed 200 OK in 9ms (Views: 3.7ms | Allocations: 2604)
+I, [2021-08-04T10:47:42.860944 #42579]  INFO -- : [cfff1227-e864-4a6e-9236-f284ab767b40] Started GET "/" for 127.0.0.1 at 2021-08-04 10:47:42 +0800
+I, [2021-08-04T10:47:42.862766 #42579]  INFO -- : [cfff1227-e864-4a6e-9236-f284ab767b40] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:47:42.869836 #42579]  INFO -- : [cfff1227-e864-4a6e-9236-f284ab767b40]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:47:42.871753 #42579]  INFO -- : [cfff1227-e864-4a6e-9236-f284ab767b40]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 685)
+I, [2021-08-04T10:47:42.873347 #42579]  INFO -- : [cfff1227-e864-4a6e-9236-f284ab767b40] Completed 200 OK in 10ms (Views: 5.0ms | Allocations: 2619)
+I, [2021-08-04T10:47:44.834820 #42579]  INFO -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:47:44 +0800
+I, [2021-08-04T10:47:44.835691 #42579]  INFO -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:47:44.835749 #42579]  INFO -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:47:44.846279 #42579] DEBUG -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:47:44.846872 #42579] DEBUG -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:47:44.867968 #42579] DEBUG -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:47:44.868323 #42579] DEBUG -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('37a5c0e4-9e85-4c68-8b88-cf2adba000dd', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:47:44', '2021-08-04 10:47:44')[0m
+D, [2021-08-04T10:47:44.869670 #42579] DEBUG -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:47:44.870113 #42579]  INFO -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:47:44.870788 #42579]  INFO -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 208)
+I, [2021-08-04T10:47:44.871814 #42579]  INFO -- : [7ce61864-8ca3-4e12-94b8-5e89ab130ac4] Completed 200 OK in 36ms (Views: 1.8ms | ActiveRecord: 4.5ms | Allocations: 13642)
+I, [2021-08-04T10:55:34.167871 #42752]  INFO -- : [847ed551-4cc2-4f40-b922-bc6402c902d9] Started GET "/" for 127.0.0.1 at 2021-08-04 10:55:34 +0800
+I, [2021-08-04T10:55:34.169942 #42752]  INFO -- : [847ed551-4cc2-4f40-b922-bc6402c902d9] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:55:34.177762 #42752]  INFO -- : [847ed551-4cc2-4f40-b922-bc6402c902d9]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:55:34.179032 #42752]  INFO -- : [847ed551-4cc2-4f40-b922-bc6402c902d9]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 709)
+I, [2021-08-04T10:55:34.180401 #42752]  INFO -- : [847ed551-4cc2-4f40-b922-bc6402c902d9] Completed 200 OK in 10ms (Views: 4.3ms | Allocations: 2637)
+I, [2021-08-04T10:55:39.348784 #42752]  INFO -- : [573db08e-3f0a-4a83-8528-4acf9b011258] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 10:55:39 +0800
+I, [2021-08-04T10:55:39.350049 #42752]  INFO -- : [573db08e-3f0a-4a83-8528-4acf9b011258] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:55:39.350199 #42752]  INFO -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T10:55:39.358819 #42752] DEBUG -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T10:55:39.359517 #42752] DEBUG -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T10:55:39.380386 #42752] DEBUG -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T10:55:39.380701 #42752] DEBUG -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('6a45fe28-46e8-4d25-aaf6-4a81c76fd61a', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 10:55:39', '2021-08-04 10:55:39')[0m
+D, [2021-08-04T10:55:39.381439 #42752] DEBUG -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T10:55:39.381896 #42752]  INFO -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:55:39.382448 #42752]  INFO -- : [573db08e-3f0a-4a83-8528-4acf9b011258]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 216)
+I, [2021-08-04T10:55:39.383342 #42752]  INFO -- : [573db08e-3f0a-4a83-8528-4acf9b011258] Completed 200 OK in 33ms (Views: 1.7ms | ActiveRecord: 4.0ms | Allocations: 13648)
+I, [2021-08-04T10:57:38.235804 #42752]  INFO -- : [c66909df-6abb-4531-bc6c-e32586df39af] Started GET "/" for 127.0.0.1 at 2021-08-04 10:57:38 +0800
+I, [2021-08-04T10:57:38.236512 #42752]  INFO -- : [c66909df-6abb-4531-bc6c-e32586df39af] Processing by BinReportsController#index as HTML
+I, [2021-08-04T10:57:38.238126 #42752]  INFO -- : [c66909df-6abb-4531-bc6c-e32586df39af]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T10:57:38.238882 #42752]  INFO -- : [c66909df-6abb-4531-bc6c-e32586df39af]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 199)
+I, [2021-08-04T10:57:38.239585 #42752]  INFO -- : [c66909df-6abb-4531-bc6c-e32586df39af] Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 852)
+I, [2021-08-04T11:00:03.688737 #42854]  INFO -- : [d7fca0d6-d736-44a7-8a92-eace8bf9bce8] Started GET "/" for 127.0.0.1 at 2021-08-04 11:00:03 +0800
+I, [2021-08-04T11:00:03.691265 #42854]  INFO -- : [d7fca0d6-d736-44a7-8a92-eace8bf9bce8] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:00:03.698861 #42854]  INFO -- : [d7fca0d6-d736-44a7-8a92-eace8bf9bce8]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:00:03.700382 #42854]  INFO -- : [d7fca0d6-d736-44a7-8a92-eace8bf9bce8]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 726)
+I, [2021-08-04T11:00:03.701832 #42854]  INFO -- : [d7fca0d6-d736-44a7-8a92-eace8bf9bce8] Completed 200 OK in 10ms (Views: 4.4ms | Allocations: 2646)
+I, [2021-08-04T11:00:06.901657 #42854]  INFO -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:00:06 +0800
+I, [2021-08-04T11:00:06.902582 #42854]  INFO -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:00:06.902688 #42854]  INFO -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:00:06.911075 #42854] DEBUG -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:00:06.911946 #42854] DEBUG -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:00:06.937531 #42854] DEBUG -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:00:06.938004 #42854] DEBUG -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('240452c1-da32-459f-913a-743911f561cd', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:00:06', '2021-08-04 11:00:06')[0m
+D, [2021-08-04T11:00:06.938715 #42854] DEBUG -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:00:06.939301 #42854]  INFO -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:00:06.939836 #42854]  INFO -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 216)
+I, [2021-08-04T11:00:06.940376 #42854]  INFO -- : [f92ee2e2-67d5-47e1-9a8b-e12f39e80609] Completed 200 OK in 38ms (Views: 1.4ms | ActiveRecord: 3.9ms | Allocations: 13654)
+I, [2021-08-04T11:01:13.418362 #42874]  INFO -- : [60894979-039d-4345-893d-65c64c3aee82] Started GET "/" for 127.0.0.1 at 2021-08-04 11:01:13 +0800
+I, [2021-08-04T11:01:13.419983 #42874]  INFO -- : [60894979-039d-4345-893d-65c64c3aee82] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:01:13.428031 #42874]  INFO -- : [60894979-039d-4345-893d-65c64c3aee82]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:01:13.428940 #42874]  INFO -- : [60894979-039d-4345-893d-65c64c3aee82]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 534)
+I, [2021-08-04T11:01:13.429122 #42874]  INFO -- : [60894979-039d-4345-893d-65c64c3aee82] Completed 500 Internal Server Error in 9ms (Allocations: 1980)
+F, [2021-08-04T11:01:13.430105 #42874] FATAL -- : [60894979-039d-4345-893d-65c64c3aee82]   
+[60894979-039d-4345-893d-65c64c3aee82] ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container">
+  <h1>Search by SN</h1>
+  <%= form_for :query, url: bin_reports_path, method: :get, {id: 'search-form'} do |form| %>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <%= form.text_field :text, placeholder: 'Search by SN...', value: params.dig('query', 'text'), id: 'text_content', class: 'form-control' %>
+      </div>
+    </div>
+
+    <div class="actions">
+      <%= form.submit 'Search', id: 'search', class: 'btn btn-primary' %>
+    </div>
+  <% end  %>
+
+  <h3>Search Results</h3>
+  <p><%= link_to "Back", root_path %></p>
+
+  <% if @bin_reports %>
+    <% if @bin_reports.empty? %>
+        <p>No result were found.</p>
+    <% else %>
+        <div class="col-md-6 mb-3">
+          <table class="table table-hover">
+              <thead class="thead-dark">
+                  <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Model</th>
+                      <th scope="col">SN</th>
+                      <th scope="col">Current</th>
+                      <th scope="col">BIN</th>
+                      <th colspan="5"></th>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <% @bin_reports.each do |report| %>
+                  <tr scope="row">
+                      <td><%= report.name %></td>
+                      <td><%= report.model %></td>
+                      <td><%= report.sn %></td>
+                      <td><%= report.current %></td>
+                      <td><%= report.bin %></td>
+                  </tr>
+                  <% end %>
+              </tbody>
+          </table>
+        </div>
+    <% end %>
+  <% end %>
+</div>
+
+<script>
+  $(document).on('ready', function(){
+
+    $('#search-form').on('submit', function(){
+      $('#text_content').val("");
+    });
+
+  });
+</script>
+):
+[60894979-039d-4345-893d-65c64c3aee82] 1:    <div class="container">
+[60894979-039d-4345-893d-65c64c3aee82] 2:      <h1>Search by SN</h1>
+[60894979-039d-4345-893d-65c64c3aee82] 3:      <%= form_for :query, url: bin_reports_path, method: :get, {id: 'search-form'} do |form| %>
+[60894979-039d-4345-893d-65c64c3aee82] 4:        <div class="form-row">
+[60894979-039d-4345-893d-65c64c3aee82] 5:          <div class="col-md-6 mb-3">
+[60894979-039d-4345-893d-65c64c3aee82] 6:            <%= form.text_field :text, placeholder: 'Search by SN...', value: params.dig('query', 'text'), id: 'text_content', class: 'form-control' %>
+[60894979-039d-4345-893d-65c64c3aee82] 7:          </div>
+[60894979-039d-4345-893d-65c64c3aee82] 8:        </div>
+[60894979-039d-4345-893d-65c64c3aee82] 9:    
+[60894979-039d-4345-893d-65c64c3aee82] 10:        <div class="actions">
+[60894979-039d-4345-893d-65c64c3aee82] 11:          <%= form.submit 'Search', id: 'search', class: 'btn btn-primary' %>
+[60894979-039d-4345-893d-65c64c3aee82] 12:        </div>
+[60894979-039d-4345-893d-65c64c3aee82] 13:      <% end  %>
+[60894979-039d-4345-893d-65c64c3aee82] 14:    
+[60894979-039d-4345-893d-65c64c3aee82] 15:      <h3>Search Results</h3>
+[60894979-039d-4345-893d-65c64c3aee82] 16:      <p><%= link_to "Back", root_path %></p>
+[60894979-039d-4345-893d-65c64c3aee82] 17:    
+[60894979-039d-4345-893d-65c64c3aee82] 18:      <% if @bin_reports %>
+[60894979-039d-4345-893d-65c64c3aee82] 19:        <% if @bin_reports.empty? %>
+[60894979-039d-4345-893d-65c64c3aee82] 20:            <p>No result were found.</p>
+[60894979-039d-4345-893d-65c64c3aee82] 21:        <% else %>
+[60894979-039d-4345-893d-65c64c3aee82] 22:            <div class="col-md-6 mb-3">
+[60894979-039d-4345-893d-65c64c3aee82] 23:              <table class="table table-hover">
+[60894979-039d-4345-893d-65c64c3aee82] 24:                  <thead class="thead-dark">
+[60894979-039d-4345-893d-65c64c3aee82] 25:                      <tr>
+[60894979-039d-4345-893d-65c64c3aee82] 26:                          <th scope="col">Name</th>
+[60894979-039d-4345-893d-65c64c3aee82] 27:                          <th scope="col">Model</th>
+[60894979-039d-4345-893d-65c64c3aee82] 28:                          <th scope="col">SN</th>
+[60894979-039d-4345-893d-65c64c3aee82] 29:                          <th scope="col">Current</th>
+[60894979-039d-4345-893d-65c64c3aee82] 30:                          <th scope="col">BIN</th>
+[60894979-039d-4345-893d-65c64c3aee82] 31:                          <th colspan="5"></th>
+[60894979-039d-4345-893d-65c64c3aee82] 32:                      </tr>
+[60894979-039d-4345-893d-65c64c3aee82] 33:                  </thead>
+[60894979-039d-4345-893d-65c64c3aee82] 34:    
+[60894979-039d-4345-893d-65c64c3aee82] 35:                  <tbody>
+[60894979-039d-4345-893d-65c64c3aee82] 36:                      <% @bin_reports.each do |report| %>
+[60894979-039d-4345-893d-65c64c3aee82] 37:                      <tr scope="row">
+[60894979-039d-4345-893d-65c64c3aee82] 38:                          <td><%= report.name %></td>
+[60894979-039d-4345-893d-65c64c3aee82] 39:                          <td><%= report.model %></td>
+[60894979-039d-4345-893d-65c64c3aee82] 40:                          <td><%= report.sn %></td>
+[60894979-039d-4345-893d-65c64c3aee82] 41:                          <td><%= report.current %></td>
+[60894979-039d-4345-893d-65c64c3aee82] 42:                          <td><%= report.bin %></td>
+[60894979-039d-4345-893d-65c64c3aee82] 43:                      </tr>
+[60894979-039d-4345-893d-65c64c3aee82] 44:                      <% end %>
+[60894979-039d-4345-893d-65c64c3aee82] 45:                  </tbody>
+[60894979-039d-4345-893d-65c64c3aee82] 46:              </table>
+[60894979-039d-4345-893d-65c64c3aee82] 47:            </div>
+[60894979-039d-4345-893d-65c64c3aee82] 48:        <% end %>
+[60894979-039d-4345-893d-65c64c3aee82] 49:      <% end %>
+[60894979-039d-4345-893d-65c64c3aee82] 50:    </div>
+[60894979-039d-4345-893d-65c64c3aee82] 51:    
+[60894979-039d-4345-893d-65c64c3aee82] 52:    <script>
+[60894979-039d-4345-893d-65c64c3aee82] 53:      $(document).on('ready', function(){
+[60894979-039d-4345-893d-65c64c3aee82] 54:    
+[60894979-039d-4345-893d-65c64c3aee82] 55:        $('#search-form').on('submit', function(){
+[60894979-039d-4345-893d-65c64c3aee82] 56:          $('#text_content').val("");
+[60894979-039d-4345-893d-65c64c3aee82] 57:        });
+[60894979-039d-4345-893d-65c64c3aee82] 58:    
+[60894979-039d-4345-893d-65c64c3aee82] 59:      });
+[60894979-039d-4345-893d-65c64c3aee82] 60:    </script>
+[60894979-039d-4345-893d-65c64c3aee82]   
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:3: syntax error, unexpected `do' for block, expecting =>
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:62: syntax error, unexpected `end', expecting end-of-input
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:3: syntax error, unexpected `do' for block, expecting =>
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:62: syntax error, unexpected `end', expecting end-of-input
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:3: syntax error, unexpected `do' for block, expecting =>
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:62: syntax error, unexpected `end', expecting end-of-input
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:3: syntax error, unexpected `do' for block, expecting =>
+[60894979-039d-4345-893d-65c64c3aee82] app/views/bin_reports/index.html.erb:62: syntax error, unexpected `end', expecting end-of-input
+I, [2021-08-04T11:03:34.566620 #42926]  INFO -- : [0297707b-a8b0-485e-a470-afdf87e09f59] Started GET "/" for 127.0.0.1 at 2021-08-04 11:03:34 +0800
+I, [2021-08-04T11:03:34.568516 #42926]  INFO -- : [0297707b-a8b0-485e-a470-afdf87e09f59] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:03:34.576215 #42926]  INFO -- : [0297707b-a8b0-485e-a470-afdf87e09f59]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:03:34.577371 #42926]  INFO -- : [0297707b-a8b0-485e-a470-afdf87e09f59]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 736)
+I, [2021-08-04T11:03:34.578567 #42926]  INFO -- : [0297707b-a8b0-485e-a470-afdf87e09f59] Completed 200 OK in 10ms (Views: 4.0ms | Allocations: 2658)
+I, [2021-08-04T11:03:38.478019 #42926]  INFO -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:03:38 +0800
+I, [2021-08-04T11:03:38.479095 #42926]  INFO -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:03:38.479169 #42926]  INFO -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:03:38.486804 #42926] DEBUG -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:03:38.487567 #42926] DEBUG -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:03:38.508394 #42926] DEBUG -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:03:38.508789 #42926] DEBUG -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('a0ee1c05-5354-4bfa-b6cc-6bc7ca11d24c', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:03:38', '2021-08-04 11:03:38')[0m
+D, [2021-08-04T11:03:38.509725 #42926] DEBUG -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:03:38.510229 #42926]  INFO -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:03:38.510684 #42926]  INFO -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+I, [2021-08-04T11:03:38.511205 #42926]  INFO -- : [b252eaa0-02ef-4edf-b588-a8bf6846b26f] Completed 200 OK in 32ms (Views: 1.3ms | ActiveRecord: 4.2ms | Allocations: 13659)
+I, [2021-08-04T11:27:03.333137 #42926]  INFO -- : [c7012b0d-de97-4cf9-a75c-5874b315afac] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:27:03 +0800
+I, [2021-08-04T11:27:03.333975 #42926]  INFO -- : [c7012b0d-de97-4cf9-a75c-5874b315afac] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:27:03.334078 #42926]  INFO -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:27:03.338304 #42926] DEBUG -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   [1m[36mBinReport Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:27:03.338956 #42926] DEBUG -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:27:03.340221 #42926] DEBUG -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:27:03.340577 #42926] DEBUG -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('11d3a694-36ba-43bc-be69-32ea83f4f9f5', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:27:03', '2021-08-04 11:27:03')[0m
+D, [2021-08-04T11:27:03.342534 #42926] DEBUG -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:27:03.343103 #42926]  INFO -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:27:03.343584 #42926]  INFO -- : [c7012b0d-de97-4cf9-a75c-5874b315afac]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 216)
+I, [2021-08-04T11:27:03.344187 #42926]  INFO -- : [c7012b0d-de97-4cf9-a75c-5874b315afac] Completed 200 OK in 10ms (Views: 1.4ms | ActiveRecord: 3.3ms | Allocations: 1874)
+I, [2021-08-04T11:29:32.861899 #43340]  INFO -- : [8ab4db30-d858-409c-8633-90a1d5dce01b] Started GET "/" for 127.0.0.1 at 2021-08-04 11:29:32 +0800
+I, [2021-08-04T11:29:32.863580 #43340]  INFO -- : [8ab4db30-d858-409c-8633-90a1d5dce01b] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:29:32.872428 #43340]  INFO -- : [8ab4db30-d858-409c-8633-90a1d5dce01b]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:29:32.873826 #43340]  INFO -- : [8ab4db30-d858-409c-8633-90a1d5dce01b]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 743)
+I, [2021-08-04T11:29:32.875099 #43340]  INFO -- : [8ab4db30-d858-409c-8633-90a1d5dce01b] Completed 200 OK in 11ms (Views: 4.9ms | Allocations: 2687)
+I, [2021-08-04T11:29:33.974857 #43340]  INFO -- : [1b9c606a-5c88-4c16-8741-b4987e089c0b] Started GET "/" for 127.0.0.1 at 2021-08-04 11:29:33 +0800
+I, [2021-08-04T11:29:33.975467 #43340]  INFO -- : [1b9c606a-5c88-4c16-8741-b4987e089c0b] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:29:33.976457 #43340]  INFO -- : [1b9c606a-5c88-4c16-8741-b4987e089c0b]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:29:33.976983 #43340]  INFO -- : [1b9c606a-5c88-4c16-8741-b4987e089c0b]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 219)
+I, [2021-08-04T11:29:33.977787 #43340]  INFO -- : [1b9c606a-5c88-4c16-8741-b4987e089c0b] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 869)
+I, [2021-08-04T11:29:37.815448 #43340]  INFO -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:29:37 +0800
+I, [2021-08-04T11:29:37.820526 #43340]  INFO -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:29:37.820675 #43340]  INFO -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:29:37.828727 #43340] DEBUG -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   [1m[36mBinReport Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:29:37.829350 #43340] DEBUG -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:29:37.850822 #43340] DEBUG -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:29:37.851166 #43340] DEBUG -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('f84a2ce1-dcc4-43dc-a73e-f68778dc4ff9', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:29:37', '2021-08-04 11:29:37')[0m
+D, [2021-08-04T11:29:37.851741 #43340] DEBUG -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:29:37.867618 #43340]  INFO -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:29:37.868564 #43340]  INFO -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f]   Rendered bin_reports/index.js.erb (Duration: 0.8ms | Allocations: 90)
+I, [2021-08-04T11:29:37.868786 #43340]  INFO -- : [f3e5c566-ae85-4ace-974a-db5fce95ea7f] Completed 200 OK in 48ms (Views: 16.1ms | ActiveRecord: 3.8ms | Allocations: 14668)
+I, [2021-08-04T11:30:32.059079 #43359]  INFO -- : [6dc56216-d0bf-4248-85db-7d598ead75da] Started GET "/" for 127.0.0.1 at 2021-08-04 11:30:32 +0800
+I, [2021-08-04T11:30:32.060443 #43359]  INFO -- : [6dc56216-d0bf-4248-85db-7d598ead75da] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:30:32.067589 #43359]  INFO -- : [6dc56216-d0bf-4248-85db-7d598ead75da]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:30:32.068811 #43359]  INFO -- : [6dc56216-d0bf-4248-85db-7d598ead75da]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 743)
+I, [2021-08-04T11:30:32.069685 #43359]  INFO -- : [6dc56216-d0bf-4248-85db-7d598ead75da] Completed 200 OK in 9ms (Views: 3.6ms | Allocations: 2667)
+I, [2021-08-04T11:30:34.720866 #43359]  INFO -- : [83459c7c-5a03-4f7c-893c-87675aa7a029] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:30:34 +0800
+I, [2021-08-04T11:30:34.723841 #43359]  INFO -- : [83459c7c-5a03-4f7c-893c-87675aa7a029] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:30:34.723913 #43359]  INFO -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:30:34.731702 #43359] DEBUG -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:30:34.732299 #43359] DEBUG -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:30:34.752803 #43359] DEBUG -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:30:34.753227 #43359] DEBUG -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('ef40aa2c-e135-4721-8f8e-3ca469fa15d6', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:30:34', '2021-08-04 11:30:34')[0m
+D, [2021-08-04T11:30:34.753764 #43359] DEBUG -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:30:34.756852 #43359]  INFO -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:30:34.757216 #43359]  INFO -- : [83459c7c-5a03-4f7c-893c-87675aa7a029]   Rendered bin_reports/index.js.erb (Duration: 0.3ms | Allocations: 94)
+I, [2021-08-04T11:30:34.757407 #43359]  INFO -- : [83459c7c-5a03-4f7c-893c-87675aa7a029] Completed 200 OK in 33ms (Views: 2.9ms | ActiveRecord: 3.7ms | Allocations: 14671)
+I, [2021-08-04T11:30:43.527264 #43359]  INFO -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:30:43 +0800
+I, [2021-08-04T11:30:43.528150 #43359]  INFO -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:30:43.528217 #43359]  INFO -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:30:43.543023 #43359] DEBUG -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:30:43.543570 #43359] DEBUG -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:30:43.544761 #43359] DEBUG -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:30:43.545238 #43359] DEBUG -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('93ad8ac1-4bf2-4d55-82a3-1445748feecd', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:30:43', '2021-08-04 11:30:43')[0m
+D, [2021-08-04T11:30:43.545936 #43359] DEBUG -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:30:43.546537 #43359]  INFO -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:30:43.546693 #43359]  INFO -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f]   Rendered bin_reports/index.js.erb (Duration: 0.1ms | Allocations: 5)
+I, [2021-08-04T11:30:43.546885 #43359]  INFO -- : [9f8f5cc8-8016-420f-ad43-f1230775d68f] Completed 200 OK in 19ms (Views: 0.7ms | ActiveRecord: 1.3ms | Allocations: 1388)
+I, [2021-08-04T11:43:50.039693 #43650]  INFO -- : [f0b46766-833a-4887-81a9-596abc4231fc] Started GET "/" for 127.0.0.1 at 2021-08-04 11:43:50 +0800
+I, [2021-08-04T11:43:50.041973 #43650]  INFO -- : [f0b46766-833a-4887-81a9-596abc4231fc] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:43:50.050148 #43650]  INFO -- : [f0b46766-833a-4887-81a9-596abc4231fc]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:43:50.051669 #43650]  INFO -- : [f0b46766-833a-4887-81a9-596abc4231fc]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 743)
+I, [2021-08-04T11:43:50.052916 #43650]  INFO -- : [f0b46766-833a-4887-81a9-596abc4231fc] Completed 200 OK in 11ms (Views: 5.2ms | Allocations: 2679)
+I, [2021-08-04T11:43:54.007003 #43650]  INFO -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:43:54 +0800
+I, [2021-08-04T11:43:54.013926 #43650]  INFO -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:43:54.014027 #43650]  INFO -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:43:54.024864 #43650] DEBUG -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   [1m[36mBinReport Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:43:54.025622 #43650] DEBUG -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:43:54.048217 #43650] DEBUG -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:43:54.048791 #43650] DEBUG -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   [1m[36mSearchHistory Create (0.4ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('0e238381-60fc-4411-8955-9b1bbd809790', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:43:54', '2021-08-04 11:43:54')[0m
+D, [2021-08-04T11:43:54.050945 #43650] DEBUG -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:43:54.054217 #43650]  INFO -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:43:54.055191 #43650]  INFO -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e]   Rendered bin_reports/index.js.erb (Duration: 0.9ms | Allocations: 94)
+I, [2021-08-04T11:43:54.055456 #43650]  INFO -- : [3b3bbe36-9281-4649-9231-07bf7e55f17e] Completed 200 OK in 41ms (Views: 3.7ms | ActiveRecord: 8.7ms | Allocations: 14667)
+I, [2021-08-04T11:43:56.009221 #43650]  INFO -- : [738c7978-c815-440b-84d5-0c5420b66f1b] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:43:56 +0800
+I, [2021-08-04T11:43:56.010963 #43650]  INFO -- : [738c7978-c815-440b-84d5-0c5420b66f1b] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:43:56.011117 #43650]  INFO -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:43:56.025379 #43650] DEBUG -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:43:56.026140 #43650] DEBUG -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   [1m[36mBinReport Load (0.4ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:43:56.027892 #43650] DEBUG -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:43:56.028366 #43650] DEBUG -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('cd3ebfe2-75e2-45f1-af5c-46c4c8a22b26', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:43:56', '2021-08-04 11:43:56')[0m
+D, [2021-08-04T11:43:56.028964 #43650] DEBUG -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:43:56.029418 #43650]  INFO -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:43:56.029520 #43650]  INFO -- : [738c7978-c815-440b-84d5-0c5420b66f1b]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-08-04T11:43:56.029760 #43650]  INFO -- : [738c7978-c815-440b-84d5-0c5420b66f1b] Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 1.6ms | Allocations: 1390)
+I, [2021-08-04T11:44:05.378441 #43650]  INFO -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:44:05 +0800
+I, [2021-08-04T11:44:05.379610 #43650]  INFO -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:44:05.379685 #43650]  INFO -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:44:05.381223 #43650] DEBUG -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:44:05.381768 #43650] DEBUG -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:44:05.382949 #43650] DEBUG -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:44:05.383268 #43650] DEBUG -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('c8b75a07-0f93-4b7b-b377-50bd36171be2', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:44:05', '2021-08-04 11:44:05')[0m
+D, [2021-08-04T11:44:05.384397 #43650] DEBUG -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:44:05.384840 #43650]  INFO -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:44:05.384926 #43650]  INFO -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-08-04T11:44:05.385114 #43650]  INFO -- : [2ba41bea-48a7-47cf-b0a8-a08bd6b6e993] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.8ms | Allocations: 1384)
+I, [2021-08-04T11:44:35.275620 #43669]  INFO -- : [fd2f2034-a7c2-4fd7-8666-1c9f3848d2e0] Started GET "/" for 127.0.0.1 at 2021-08-04 11:44:35 +0800
+I, [2021-08-04T11:44:35.277290 #43669]  INFO -- : [fd2f2034-a7c2-4fd7-8666-1c9f3848d2e0] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:44:35.284525 #43669]  INFO -- : [fd2f2034-a7c2-4fd7-8666-1c9f3848d2e0]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:44:35.286043 #43669]  INFO -- : [fd2f2034-a7c2-4fd7-8666-1c9f3848d2e0]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 743)
+I, [2021-08-04T11:44:35.287209 #43669]  INFO -- : [fd2f2034-a7c2-4fd7-8666-1c9f3848d2e0] Completed 200 OK in 10ms (Views: 4.3ms | Allocations: 2679)
+I, [2021-08-04T11:44:37.039945 #43669]  INFO -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:44:37 +0800
+I, [2021-08-04T11:44:37.042853 #43669]  INFO -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:44:37.042910 #43669]  INFO -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:44:37.050556 #43669] DEBUG -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:44:37.051135 #43669] DEBUG -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:44:37.070518 #43669] DEBUG -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:44:37.070891 #43669] DEBUG -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('8dfe39ab-a1d5-4271-8071-0c6a488ad805', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:44:37', '2021-08-04 11:44:37')[0m
+D, [2021-08-04T11:44:37.071391 #43669] DEBUG -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:44:37.074514 #43669]  INFO -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:44:37.074908 #43669]  INFO -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6]   Rendered bin_reports/index.js.erb (Duration: 0.3ms | Allocations: 94)
+I, [2021-08-04T11:44:37.075102 #43669]  INFO -- : [ec4da8fc-c259-449f-a3ee-6f067ae519e6] Completed 200 OK in 32ms (Views: 2.9ms | ActiveRecord: 3.7ms | Allocations: 14679)
+I, [2021-08-04T11:45:35.129859 #43700]  INFO -- : [b990ded9-5148-461b-853d-d6731e9ae487] Started GET "/" for 127.0.0.1 at 2021-08-04 11:45:35 +0800
+I, [2021-08-04T11:45:35.131398 #43700]  INFO -- : [b990ded9-5148-461b-853d-d6731e9ae487] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:45:35.139198 #43700]  INFO -- : [b990ded9-5148-461b-853d-d6731e9ae487]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:45:35.140632 #43700]  INFO -- : [b990ded9-5148-461b-853d-d6731e9ae487]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 743)
+I, [2021-08-04T11:45:35.141692 #43700]  INFO -- : [b990ded9-5148-461b-853d-d6731e9ae487] Completed 200 OK in 10ms (Views: 4.9ms | Allocations: 2669)
+I, [2021-08-04T11:45:37.025727 #43700]  INFO -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:45:37 +0800
+I, [2021-08-04T11:45:37.028803 #43700]  INFO -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:45:37.028860 #43700]  INFO -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:45:37.035730 #43700] DEBUG -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:45:37.036856 #43700] DEBUG -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   [1m[36mBinReport Load (0.6ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:45:37.059166 #43700] DEBUG -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:45:37.059610 #43700] DEBUG -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('b738b04d-114b-4706-b0f3-a6c297f809f1', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:45:37', '2021-08-04 11:45:37')[0m
+D, [2021-08-04T11:45:37.060135 #43700] DEBUG -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:45:37.063182 #43700]  INFO -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:45:37.063556 #43700]  INFO -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c]   Rendered bin_reports/index.js.erb (Duration: 0.3ms | Allocations: 94)
+I, [2021-08-04T11:45:37.063752 #43700]  INFO -- : [1079d444-8ea1-4cac-8f1c-f9266e023f9c] Completed 200 OK in 35ms (Views: 2.9ms | ActiveRecord: 4.1ms | Allocations: 14683)
+I, [2021-08-04T11:46:22.074613 #43700]  INFO -- : [39b21829-697e-48ed-8428-3f0d9fa186be] Started GET "/" for 127.0.0.1 at 2021-08-04 11:46:22 +0800
+I, [2021-08-04T11:46:22.075416 #43700]  INFO -- : [39b21829-697e-48ed-8428-3f0d9fa186be] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:46:22.076497 #43700]  INFO -- : [39b21829-697e-48ed-8428-3f0d9fa186be]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:46:22.089638 #43700]  INFO -- : [39b21829-697e-48ed-8428-3f0d9fa186be]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 219)
+I, [2021-08-04T11:46:22.090260 #43700]  INFO -- : [39b21829-697e-48ed-8428-3f0d9fa186be] Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 876)
+I, [2021-08-04T11:46:25.872208 #43700]  INFO -- : [05471bda-40d0-4862-a323-ce960172ee33] Started GET "/bin_reports?query%5Btext%5D=96172210214&commit=Search" for 127.0.0.1 at 2021-08-04 11:46:25 +0800
+I, [2021-08-04T11:46:25.877956 #43700]  INFO -- : [05471bda-40d0-4862-a323-ce960172ee33] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:46:25.878060 #43700]  INFO -- : [05471bda-40d0-4862-a323-ce960172ee33]   Parameters: {"query"=>{"text"=>"96172210214"}, "commit"=>"Search"}
+D, [2021-08-04T11:46:25.879675 #43700] DEBUG -- : [05471bda-40d0-4862-a323-ce960172ee33]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172210214') LIMIT 1[0m
+D, [2021-08-04T11:46:25.880380 #43700] DEBUG -- : [05471bda-40d0-4862-a323-ce960172ee33]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172210214')[0m
+D, [2021-08-04T11:46:25.881576 #43700] DEBUG -- : [05471bda-40d0-4862-a323-ce960172ee33]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:46:25.881891 #43700] DEBUG -- : [05471bda-40d0-4862-a323-ce960172ee33]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('43c7d358-7a5d-481b-ab37-7d24b63f4c98', '2020/12/29 22:14', 'AHB Cell Pack', 'AHB74490HPC', '96172210214', 0.3533, 'B3', '2021-08-04 11:46:25', '2021-08-04 11:46:25')[0m
+D, [2021-08-04T11:46:25.882427 #43700] DEBUG -- : [05471bda-40d0-4862-a323-ce960172ee33]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:46:25.883026 #43700]  INFO -- : [05471bda-40d0-4862-a323-ce960172ee33]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:46:25.883127 #43700]  INFO -- : [05471bda-40d0-4862-a323-ce960172ee33]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T11:46:25.883281 #43700]  INFO -- : [05471bda-40d0-4862-a323-ce960172ee33] Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.3ms | Allocations: 1369)
+I, [2021-08-04T11:46:26.737112 #43700]  INFO -- : [f4051314-74da-4924-afc0-00ee5a11e839] Started GET "/bin_reports?query%5Btext%5D=96172210214&commit=Search" for 127.0.0.1 at 2021-08-04 11:46:26 +0800
+I, [2021-08-04T11:46:26.737926 #43700]  INFO -- : [f4051314-74da-4924-afc0-00ee5a11e839] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:46:26.737986 #43700]  INFO -- : [f4051314-74da-4924-afc0-00ee5a11e839]   Parameters: {"query"=>{"text"=>"96172210214"}, "commit"=>"Search"}
+D, [2021-08-04T11:46:26.739533 #43700] DEBUG -- : [f4051314-74da-4924-afc0-00ee5a11e839]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172210214') LIMIT 1[0m
+D, [2021-08-04T11:46:26.740146 #43700] DEBUG -- : [f4051314-74da-4924-afc0-00ee5a11e839]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172210214')[0m
+D, [2021-08-04T11:46:26.741455 #43700] DEBUG -- : [f4051314-74da-4924-afc0-00ee5a11e839]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:46:26.741861 #43700] DEBUG -- : [f4051314-74da-4924-afc0-00ee5a11e839]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('9576e61e-f604-4252-91f6-a8d963503e35', '2020/12/29 22:14', 'AHB Cell Pack', 'AHB74490HPC', '96172210214', 0.3533, 'B3', '2021-08-04 11:46:26', '2021-08-04 11:46:26')[0m
+D, [2021-08-04T11:46:26.742480 #43700] DEBUG -- : [f4051314-74da-4924-afc0-00ee5a11e839]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:46:26.743264 #43700]  INFO -- : [f4051314-74da-4924-afc0-00ee5a11e839]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:46:26.743389 #43700]  INFO -- : [f4051314-74da-4924-afc0-00ee5a11e839]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T11:46:26.743698 #43700]  INFO -- : [f4051314-74da-4924-afc0-00ee5a11e839] Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 1.4ms | Allocations: 1361)
+I, [2021-08-04T11:50:39.035292 #43767]  INFO -- : [468b9139-04b6-401d-b196-868a6e450863] Started GET "/" for 127.0.0.1 at 2021-08-04 11:50:39 +0800
+I, [2021-08-04T11:50:39.036772 #43767]  INFO -- : [468b9139-04b6-401d-b196-868a6e450863] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:50:39.043900 #43767]  INFO -- : [468b9139-04b6-401d-b196-868a6e450863]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:50:39.045149 #43767]  INFO -- : [468b9139-04b6-401d-b196-868a6e450863]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 736)
+I, [2021-08-04T11:50:39.046065 #43767]  INFO -- : [468b9139-04b6-401d-b196-868a6e450863] Completed 200 OK in 9ms (Views: 3.8ms | Allocations: 2670)
+I, [2021-08-04T11:50:43.664044 #43767]  INFO -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19] Started GET "/bin_reports?query%5Btext%5D=96172220086&commit=Search" for 127.0.0.1 at 2021-08-04 11:50:43 +0800
+I, [2021-08-04T11:50:43.664778 #43767]  INFO -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:50:43.664833 #43767]  INFO -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   Parameters: {"query"=>{"text"=>"96172220086"}, "commit"=>"Search"}
+D, [2021-08-04T11:50:43.673078 #43767] DEBUG -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220086') LIMIT 1[0m
+D, [2021-08-04T11:50:43.673669 #43767] DEBUG -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172220086')[0m
+D, [2021-08-04T11:50:43.696249 #43767] DEBUG -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:50:43.696618 #43767] DEBUG -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('70dcd645-e87a-4a66-b40b-731b13081ac5', '2020/12/29 13:22', 'AHB Cell Pack', 'AHB74490HPC', '96172220086', 0.3498, 'C1', '2021-08-04 11:50:43', '2021-08-04 11:50:43')[0m
+D, [2021-08-04T11:50:43.697164 #43767] DEBUG -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:50:43.697632 #43767]  INFO -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:50:43.698142 #43767]  INFO -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+I, [2021-08-04T11:50:43.698702 #43767]  INFO -- : [40ed8a84-c8b6-4630-a18a-27a200fb2d19] Completed 200 OK in 34ms (Views: 1.3ms | ActiveRecord: 4.1ms | Allocations: 13667)
+I, [2021-08-04T11:54:56.785651 #43854]  INFO -- : [bd285c48-8d21-4b69-9d9e-4a143368ee78] Started GET "/" for 127.0.0.1 at 2021-08-04 11:54:56 +0800
+I, [2021-08-04T11:54:56.787048 #43854]  INFO -- : [bd285c48-8d21-4b69-9d9e-4a143368ee78] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:54:56.794953 #43854]  INFO -- : [bd285c48-8d21-4b69-9d9e-4a143368ee78]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:54:56.796359 #43854]  INFO -- : [bd285c48-8d21-4b69-9d9e-4a143368ee78]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 743)
+I, [2021-08-04T11:54:56.797640 #43854]  INFO -- : [bd285c48-8d21-4b69-9d9e-4a143368ee78] Completed 200 OK in 10ms (Views: 4.2ms | Allocations: 2669)
+I, [2021-08-04T11:54:58.063568 #43854]  INFO -- : [110234ca-2be8-4b53-9839-290e2b8e96a3] Started GET "/" for 127.0.0.1 at 2021-08-04 11:54:58 +0800
+I, [2021-08-04T11:54:58.064222 #43854]  INFO -- : [110234ca-2be8-4b53-9839-290e2b8e96a3] Processing by BinReportsController#index as HTML
+I, [2021-08-04T11:54:58.065037 #43854]  INFO -- : [110234ca-2be8-4b53-9839-290e2b8e96a3]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T11:54:58.065635 #43854]  INFO -- : [110234ca-2be8-4b53-9839-290e2b8e96a3]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 219)
+I, [2021-08-04T11:54:58.066367 #43854]  INFO -- : [110234ca-2be8-4b53-9839-290e2b8e96a3] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 875)
+I, [2021-08-04T11:55:00.364697 #43854]  INFO -- : [7a4de6cb-7415-4828-8289-5b82892caab0] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:55:00 +0800
+I, [2021-08-04T11:55:00.367550 #43854]  INFO -- : [7a4de6cb-7415-4828-8289-5b82892caab0] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:55:00.367632 #43854]  INFO -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:55:00.374908 #43854] DEBUG -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   [1m[36mBinReport Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:55:00.375888 #43854] DEBUG -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:55:00.398699 #43854] DEBUG -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:55:00.399150 #43854] DEBUG -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('50527280-74d8-4792-b0b2-2673744891cb', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:55:00', '2021-08-04 11:55:00')[0m
+D, [2021-08-04T11:55:00.399770 #43854] DEBUG -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:55:00.415735 #43854]  INFO -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:55:00.416171 #43854]  INFO -- : [7a4de6cb-7415-4828-8289-5b82892caab0]   Rendered bin_reports/index.js.erb (Duration: 0.3ms | Allocations: 96)
+I, [2021-08-04T11:55:00.416354 #43854]  INFO -- : [7a4de6cb-7415-4828-8289-5b82892caab0] Completed 200 OK in 49ms (Views: 15.8ms | ActiveRecord: 4.0ms | Allocations: 14679)
+I, [2021-08-04T11:55:01.049568 #43854]  INFO -- : [260da45a-ae23-4d1b-815b-9329da871286] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:55:01 +0800
+I, [2021-08-04T11:55:01.050383 #43854]  INFO -- : [260da45a-ae23-4d1b-815b-9329da871286] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:55:01.050431 #43854]  INFO -- : [260da45a-ae23-4d1b-815b-9329da871286]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:55:01.051803 #43854] DEBUG -- : [260da45a-ae23-4d1b-815b-9329da871286]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:55:01.052404 #43854] DEBUG -- : [260da45a-ae23-4d1b-815b-9329da871286]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:55:01.053616 #43854] DEBUG -- : [260da45a-ae23-4d1b-815b-9329da871286]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:55:01.053907 #43854] DEBUG -- : [260da45a-ae23-4d1b-815b-9329da871286]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('4fa5f9c5-b40d-4425-993f-5044f7d923ec', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:55:01', '2021-08-04 11:55:01')[0m
+D, [2021-08-04T11:55:01.054425 #43854] DEBUG -- : [260da45a-ae23-4d1b-815b-9329da871286]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:55:01.054982 #43854]  INFO -- : [260da45a-ae23-4d1b-815b-9329da871286]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:55:01.055082 #43854]  INFO -- : [260da45a-ae23-4d1b-815b-9329da871286]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 5)
+I, [2021-08-04T11:55:01.055251 #43854]  INFO -- : [260da45a-ae23-4d1b-815b-9329da871286] Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.2ms | Allocations: 1379)
+I, [2021-08-04T11:55:01.406866 #43854]  INFO -- : [98ec480c-3f22-4b93-b263-e048c11ad400] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:55:01 +0800
+I, [2021-08-04T11:55:01.407680 #43854]  INFO -- : [98ec480c-3f22-4b93-b263-e048c11ad400] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:55:01.407749 #43854]  INFO -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:55:01.410763 #43854] DEBUG -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   [1m[36mBinReport Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:55:01.411350 #43854] DEBUG -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:55:01.412704 #43854] DEBUG -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:55:01.413056 #43854] DEBUG -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('2876e196-fe2a-4785-a0b2-288dd4be6f90', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:55:01', '2021-08-04 11:55:01')[0m
+D, [2021-08-04T11:55:01.414134 #43854] DEBUG -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:55:01.414660 #43854]  INFO -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:55:01.414759 #43854]  INFO -- : [98ec480c-3f22-4b93-b263-e048c11ad400]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T11:55:01.414944 #43854]  INFO -- : [98ec480c-3f22-4b93-b263-e048c11ad400] Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.9ms | Allocations: 1379)
+I, [2021-08-04T11:55:01.567177 #43854]  INFO -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:55:01 +0800
+I, [2021-08-04T11:55:01.567937 #43854]  INFO -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:55:01.568055 #43854]  INFO -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:55:01.569627 #43854] DEBUG -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:55:01.570178 #43854] DEBUG -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:55:01.571348 #43854] DEBUG -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:55:01.571679 #43854] DEBUG -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('75892ca6-1f1b-4a07-9c88-74abc5cddb13', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:55:01', '2021-08-04 11:55:01')[0m
+D, [2021-08-04T11:55:01.572925 #43854] DEBUG -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:55:01.573493 #43854]  INFO -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:55:01.573603 #43854]  INFO -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T11:55:01.573881 #43854]  INFO -- : [7aaa11b5-a48f-426b-9969-8e5914df6e8a] Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.9ms | Allocations: 1365)
+I, [2021-08-04T11:55:01.723411 #43854]  INFO -- : [1d379ac7-61b9-4559-b197-93e366ca26a8] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:55:01 +0800
+I, [2021-08-04T11:55:01.724386 #43854]  INFO -- : [1d379ac7-61b9-4559-b197-93e366ca26a8] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:55:01.724467 #43854]  INFO -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:55:01.727256 #43854] DEBUG -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:55:01.727827 #43854] DEBUG -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:55:01.729012 #43854] DEBUG -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:55:01.729334 #43854] DEBUG -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('1217c86b-90b8-4570-8821-d3685842992f', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:55:01', '2021-08-04 11:55:01')[0m
+D, [2021-08-04T11:55:01.730437 #43854] DEBUG -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:55:01.730918 #43854]  INFO -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:55:01.731025 #43854]  INFO -- : [1d379ac7-61b9-4559-b197-93e366ca26a8]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T11:55:01.731197 #43854]  INFO -- : [1d379ac7-61b9-4559-b197-93e366ca26a8] Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.8ms | Allocations: 1359)
+I, [2021-08-04T11:55:01.866505 #43854]  INFO -- : [6431dc87-5401-428b-888a-47ccf9ae2e44] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:55:01 +0800
+I, [2021-08-04T11:55:01.867222 #43854]  INFO -- : [6431dc87-5401-428b-888a-47ccf9ae2e44] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:55:01.867276 #43854]  INFO -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:55:01.868707 #43854] DEBUG -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:55:01.869230 #43854] DEBUG -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:55:01.870365 #43854] DEBUG -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:55:01.870725 #43854] DEBUG -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('aee1e0d6-73f1-42ab-bf82-e8b09a88e3af', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:55:01', '2021-08-04 11:55:01')[0m
+D, [2021-08-04T11:55:01.871777 #43854] DEBUG -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:55:01.872270 #43854]  INFO -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:55:01.872368 #43854]  INFO -- : [6431dc87-5401-428b-888a-47ccf9ae2e44]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T11:55:01.872534 #43854]  INFO -- : [6431dc87-5401-428b-888a-47ccf9ae2e44] Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.8ms | Allocations: 1363)
+I, [2021-08-04T11:55:02.005438 #43854]  INFO -- : [18bccaf0-780c-4ad6-a819-608f65187af6] Started GET "/bin_reports?query%5Btext%5D=96172211977&commit=Search" for 127.0.0.1 at 2021-08-04 11:55:02 +0800
+I, [2021-08-04T11:55:02.006270 #43854]  INFO -- : [18bccaf0-780c-4ad6-a819-608f65187af6] Processing by BinReportsController#index as JS
+I, [2021-08-04T11:55:02.006326 #43854]  INFO -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   Parameters: {"query"=>{"text"=>"96172211977"}, "commit"=>"Search"}
+D, [2021-08-04T11:55:02.009030 #43854] DEBUG -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   [1m[36mBinReport Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172211977') LIMIT 1[0m
+D, [2021-08-04T11:55:02.010171 #43854] DEBUG -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   [1m[36mBinReport Load (0.4ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172211977')[0m
+D, [2021-08-04T11:55:02.011426 #43854] DEBUG -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T11:55:02.011715 #43854] DEBUG -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('3055e207-cc44-46ef-8d84-9c19f38164c0', '2020/12/29 22:07', 'AHB Cell Pack', 'AHB74490HPC', '96172211977', 0.3546, 'B3', '2021-08-04 11:55:02', '2021-08-04 11:55:02')[0m
+D, [2021-08-04T11:55:02.012790 #43854] DEBUG -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T11:55:02.013258 #43854]  INFO -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   Rendering bin_reports/index.js.erb
+I, [2021-08-04T11:55:02.013354 #43854]  INFO -- : [18bccaf0-780c-4ad6-a819-608f65187af6]   Rendered bin_reports/index.js.erb (Duration: 0.0ms | Allocations: 4)
+I, [2021-08-04T11:55:02.013525 #43854]  INFO -- : [18bccaf0-780c-4ad6-a819-608f65187af6] Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 2.7ms | Allocations: 1351)
+I, [2021-08-04T12:17:04.598597 #44581]  INFO -- : [4d519d32-d12b-4d6e-872e-5b0ddfe7381f] Started GET "/" for 127.0.0.1 at 2021-08-04 12:17:04 +0800
+I, [2021-08-04T12:17:04.600051 #44581]  INFO -- : [4d519d32-d12b-4d6e-872e-5b0ddfe7381f] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:17:04.607701 #44581]  INFO -- : [4d519d32-d12b-4d6e-872e-5b0ddfe7381f]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:17:04.609056 #44581]  INFO -- : [4d519d32-d12b-4d6e-872e-5b0ddfe7381f]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 743)
+I, [2021-08-04T12:17:04.610119 #44581]  INFO -- : [4d519d32-d12b-4d6e-872e-5b0ddfe7381f] Completed 200 OK in 10ms (Views: 4.0ms | Allocations: 3241)
+I, [2021-08-04T12:17:05.737039 #44581]  INFO -- : [e3fd4989-232d-478f-aafd-a514365df0b2] Started GET "/" for 127.0.0.1 at 2021-08-04 12:17:05 +0800
+I, [2021-08-04T12:17:05.737683 #44581]  INFO -- : [e3fd4989-232d-478f-aafd-a514365df0b2] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:17:05.738537 #44581]  INFO -- : [e3fd4989-232d-478f-aafd-a514365df0b2]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:17:05.739220 #44581]  INFO -- : [e3fd4989-232d-478f-aafd-a514365df0b2]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 219)
+I, [2021-08-04T12:17:05.739912 #44581]  INFO -- : [e3fd4989-232d-478f-aafd-a514365df0b2] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 927)
+I, [2021-08-04T12:17:07.936367 #44581]  INFO -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e] Started GET "/bin_reports?query%5Btext%5D=96172220086&commit=Search" for 127.0.0.1 at 2021-08-04 12:17:07 +0800
+I, [2021-08-04T12:17:07.937131 #44581]  INFO -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:17:07.937217 #44581]  INFO -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   Parameters: {"query"=>{"text"=>"96172220086"}, "commit"=>"Search"}
+D, [2021-08-04T12:17:07.945914 #44581] DEBUG -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   [1m[36mBinReport Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220086') LIMIT 1[0m
+D, [2021-08-04T12:17:07.946570 #44581] DEBUG -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172220086')[0m
+D, [2021-08-04T12:17:07.966261 #44581] DEBUG -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T12:17:07.966613 #44581] DEBUG -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('3619ef40-10c9-4183-9353-90e195d940f3', '2020/12/29 13:22', 'AHB Cell Pack', 'AHB74490HPC', '96172220086', 0.3498, 'C1', '2021-08-04 12:17:07', '2021-08-04 12:17:07')[0m
+D, [2021-08-04T12:17:07.967317 #44581] DEBUG -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T12:17:07.967748 #44581]  INFO -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:17:07.968254 #44581]  INFO -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+I, [2021-08-04T12:17:07.968913 #44581]  INFO -- : [164f7ac3-9401-4a10-829b-4f0bf989df4e] Completed 200 OK in 32ms (Views: 1.4ms | ActiveRecord: 4.8ms | Allocations: 13716)
+I, [2021-08-04T12:17:36.313661 #44581]  INFO -- : [5a9a9196-3f16-4fd0-9bda-fd7daa949133] Started GET "/" for 127.0.0.1 at 2021-08-04 12:17:36 +0800
+I, [2021-08-04T12:17:36.314843 #44581]  INFO -- : [5a9a9196-3f16-4fd0-9bda-fd7daa949133] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:17:36.328425 #44581]  INFO -- : [5a9a9196-3f16-4fd0-9bda-fd7daa949133]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:17:36.329062 #44581]  INFO -- : [5a9a9196-3f16-4fd0-9bda-fd7daa949133]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 212)
+I, [2021-08-04T12:17:36.329811 #44581]  INFO -- : [5a9a9196-3f16-4fd0-9bda-fd7daa949133] Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 892)
+I, [2021-08-04T12:17:45.239204 #44581]  INFO -- : [19d083ee-4e48-4204-9020-ac6055dd9238] Started GET "/bin_reports?query%5Btext%5D=96172220086&commit=Search" for 127.0.0.1 at 2021-08-04 12:17:45 +0800
+I, [2021-08-04T12:17:45.240194 #44581]  INFO -- : [19d083ee-4e48-4204-9020-ac6055dd9238] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:17:45.240253 #44581]  INFO -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   Parameters: {"query"=>{"text"=>"96172220086"}, "commit"=>"Search"}
+D, [2021-08-04T12:17:45.241641 #44581] DEBUG -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220086') LIMIT 1[0m
+D, [2021-08-04T12:17:45.242308 #44581] DEBUG -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172220086')[0m
+D, [2021-08-04T12:17:45.243403 #44581] DEBUG -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T12:17:45.243672 #44581] DEBUG -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('3a81f9b4-5d26-4c2b-93b7-e2e4ca0341ab', '2020/12/29 13:22', 'AHB Cell Pack', 'AHB74490HPC', '96172220086', 0.3498, 'C1', '2021-08-04 12:17:45', '2021-08-04 12:17:45')[0m
+D, [2021-08-04T12:17:45.244632 #44581] DEBUG -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T12:17:45.245159 #44581]  INFO -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:17:45.245656 #44581]  INFO -- : [19d083ee-4e48-4204-9020-ac6055dd9238]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+I, [2021-08-04T12:17:45.246327 #44581]  INFO -- : [19d083ee-4e48-4204-9020-ac6055dd9238] Completed 200 OK in 6ms (Views: 1.5ms | ActiveRecord: 1.7ms | Allocations: 1833)
+I, [2021-08-04T12:17:56.523165 #44581]  INFO -- : [e1169254-f980-4a45-9aa4-0e4228d9b228] Started GET "/bin_reports?query%5Btext%5D=96172220086&commit=Search" for 127.0.0.1 at 2021-08-04 12:17:56 +0800
+I, [2021-08-04T12:17:56.523772 #44581]  INFO -- : [e1169254-f980-4a45-9aa4-0e4228d9b228] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:17:56.523821 #44581]  INFO -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   Parameters: {"query"=>{"text"=>"96172220086"}, "commit"=>"Search"}
+D, [2021-08-04T12:17:56.525181 #44581] DEBUG -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220086') LIMIT 1[0m
+D, [2021-08-04T12:17:56.525637 #44581] DEBUG -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   [1m[36mBinReport Load (0.2ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172220086')[0m
+D, [2021-08-04T12:17:56.526767 #44581] DEBUG -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T12:17:56.527039 #44581] DEBUG -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   [1m[36mSearchHistory Create (0.2ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('5b8928f5-9997-44b4-8b80-7ed0e88ba459', '2020/12/29 13:22', 'AHB Cell Pack', 'AHB74490HPC', '96172220086', 0.3498, 'C1', '2021-08-04 12:17:56', '2021-08-04 12:17:56')[0m
+D, [2021-08-04T12:17:56.527644 #44581] DEBUG -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T12:17:56.528008 #44581]  INFO -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:17:56.528459 #44581]  INFO -- : [e1169254-f980-4a45-9aa4-0e4228d9b228]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 223)
+I, [2021-08-04T12:17:56.529009 #44581]  INFO -- : [e1169254-f980-4a45-9aa4-0e4228d9b228] Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 1.2ms | Allocations: 1829)
+I, [2021-08-04T12:18:49.452608 #44624]  INFO -- : [6e979b7b-c776-472b-a278-d89ceda2b533] Started GET "/" for 127.0.0.1 at 2021-08-04 12:18:49 +0800
+I, [2021-08-04T12:18:49.454897 #44624]  INFO -- : [6e979b7b-c776-472b-a278-d89ceda2b533] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:18:49.462668 #44624]  INFO -- : [6e979b7b-c776-472b-a278-d89ceda2b533]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:18:49.464263 #44624]  INFO -- : [6e979b7b-c776-472b-a278-d89ceda2b533]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 736)
+I, [2021-08-04T12:18:49.465848 #44624]  INFO -- : [6e979b7b-c776-472b-a278-d89ceda2b533] Completed 200 OK in 11ms (Views: 4.8ms | Allocations: 2737)
+I, [2021-08-04T12:18:53.788315 #44624]  INFO -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b] Started GET "/bin_reports?query%5Btext%5D=96172220086&commit=Search" for 127.0.0.1 at 2021-08-04 12:18:53 +0800
+I, [2021-08-04T12:18:53.789252 #44624]  INFO -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:18:53.789335 #44624]  INFO -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   Parameters: {"query"=>{"text"=>"96172220086"}, "commit"=>"Search"}
+D, [2021-08-04T12:18:53.797289 #44624] DEBUG -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   [1m[36mBinReport Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `bin_reports` WHERE (sn = '96172220086') LIMIT 1[0m
+D, [2021-08-04T12:18:53.798111 #44624] DEBUG -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   [1m[36mBinReport Load (0.3ms)[0m  [1m[34mSELECT `bin_reports`.* FROM `bin_reports` WHERE (sn = '96172220086')[0m
+D, [2021-08-04T12:18:53.818598 #44624] DEBUG -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2021-08-04T12:18:53.819055 #44624] DEBUG -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   [1m[36mSearchHistory Create (0.3ms)[0m  [1m[32mINSERT INTO `search_histories` (`id`, `time`, `name`, `model`, `sn`, `current`, `bin`, `created_at`, `updated_at`) VALUES ('0f0fc60d-3f2f-4ab2-99a9-4afde936c538', '2020/12/29 13:22', 'AHB Cell Pack', 'AHB74490HPC', '96172220086', 0.3498, 'C1', '2021-08-04 12:18:53', '2021-08-04 12:18:53')[0m
+D, [2021-08-04T12:18:53.819694 #44624] DEBUG -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2021-08-04T12:18:53.820248 #44624]  INFO -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:18:53.820789 #44624]  INFO -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 222)
+I, [2021-08-04T12:18:53.821508 #44624]  INFO -- : [7def5f2b-5bb8-46fe-a23b-73d9cc04285b] Completed 200 OK in 32ms (Views: 1.5ms | ActiveRecord: 4.1ms | Allocations: 13714)
+I, [2021-08-04T12:20:31.941179 #44657]  INFO -- : [3b8d4eba-4c6c-45cd-91cb-3bb5e9f5a595] Started GET "/" for 127.0.0.1 at 2021-08-04 12:20:31 +0800
+I, [2021-08-04T12:20:31.943203 #44657]  INFO -- : [3b8d4eba-4c6c-45cd-91cb-3bb5e9f5a595] Processing by BinReportsController#index as HTML
+I, [2021-08-04T12:20:31.949782 #44657]  INFO -- : [3b8d4eba-4c6c-45cd-91cb-3bb5e9f5a595]   Rendering bin_reports/index.html.erb within layouts/application
+I, [2021-08-04T12:20:31.951818 #44657]  INFO -- : [3b8d4eba-4c6c-45cd-91cb-3bb5e9f5a595]   Rendered bin_reports/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 740)
+I, [2021-08-04T12:20:31.953247 #44657]  INFO -- : [3b8d4eba-4c6c-45cd-91cb-3bb5e9f5a595] Completed 200 OK in 10ms (Views: 5.0ms | Allocations: 2735)
+I, [2021-08-04T12:20:40.739779 #44657]  INFO -- : [a27724ca-d831-46a1-9d08-940b49ff3565] Started POST "/bin_reports" for 127.0.0.1 at 2021-08-04 12:20:40 +0800
+F, [2021-08-04T12:20:40.740693 #44657] FATAL -- : [a27724ca-d831-46a1-9d08-940b49ff3565]   
+[a27724ca-d831-46a1-9d08-940b49ff3565] ActionController::RoutingError (No route matches [POST] "/bin_reports"):
+[a27724ca-d831-46a1-9d08-940b49ff3565]   
+[a27724ca-d831-46a1-9d08-940b49ff3565] actionpack (6.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] actionpack (6.0.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] railties (6.0.4) lib/rails/rack/logger.rb:37:in `call_app'
+[a27724ca-d831-46a1-9d08-940b49ff3565] railties (6.0.4) lib/rails/rack/logger.rb:26:in `block in call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[a27724ca-d831-46a1-9d08-940b49ff3565] activesupport (6.0.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+[a27724ca-d831-46a1-9d08-940b49ff3565] activesupport (6.0.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+[a27724ca-d831-46a1-9d08-940b49ff3565] railties (6.0.4) lib/rails/rack/logger.rb:26:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] actionpack (6.0.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] actionpack (6.0.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] activesupport (6.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] actionpack (6.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] actionpack (6.0.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] actionpack (6.0.4) lib/action_dispatch/middleware/host_authorization.rb:76:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] railties (6.0.4) lib/rails/engine.rb:527:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] puma (4.3.8) lib/puma/configuration.rb:228:in `call'
+[a27724ca-d831-46a1-9d08-940b49ff3565] puma (4.3.8) lib/puma/server.rb:718:in `handle_request'
+[a27724ca-d831-46a1-9d08-940b49ff3565] puma (4.3.8) lib/puma/server.rb:472:in `process_client'
+[a27724ca-d831-46a1-9d08-940b49ff3565] puma (4.3.8) lib/puma/server.rb:328:in `block in run'
+[a27724ca-d831-46a1-9d08-940b49ff3565] puma (4.3.8) lib/puma/thread_pool.rb:134:in `block in spawn_thread'

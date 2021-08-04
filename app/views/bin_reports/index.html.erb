@@ -1,44 +1,60 @@
-<h1>Search by SN</h1>
-<%= form_for :query, url: bin_reports_path, method: :get do |form| %>
-  <div class="field">
-    <%= form.text_field :text, placeholder: 'Search by SN...', value: params.dig('query', 'text') %>
-  </div>
+<div class="container">
+  <h1>Search by SN</h1>
+  <%= form_for :query, url: bin_reports_path, remote: true, method: :get, :html => { :id => "search-form" } do |form| %>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <%= form.text_field :text, placeholder: 'Search by SN...', value: '', autofocus: true, id: 'text_content', class: 'form-control' %>
+      </div>
+    </div>
 
-  <div class="actions">
-    <%= form.submit 'Search' %>
-  </div>
-<% end  %>
+    <div class="actions">
+      <%= form.submit 'Search', id: 'search', class: 'btn btn-primary' %>
+    </div>
+  <% end  %>
 
-<h1>Search Results</h1>
-<p><%= link_to "Back", root_path %></p>
+  <h3>Search Results</h3>
+  <p><%= link_to "History", search_histories_path %></p>
 
-<% if @bin_reports %>
-  <% if @bin_reports.empty? %>
-      <p>No result were found.</p>
-  <% else %>
-      <table>
-          <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Model</th>
-                  <th>SN</th>
-                  <th>Current</th>
-                  <th>BIN</th>
-                  <th colspan="5"></th>
-              </tr>
-          </thead>
+  <% if @bin_reports %>
+    <% if @bin_reports.empty? %>
+        <p>No result were found.</p>
+    <% else %>
+        <div class="col-md-6 mb-3">
+          <table class="table table-hover">
+              <thead class="thead-dark">
+                  <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Model</th>
+                      <th scope="col">SN</th>
+                      <th scope="col">Current</th>
+                      <th scope="col">BIN</th>
+                      <th colspan="5"></th>
+                  </tr>
+              </thead>
 
-          <tbody>
-              <% @bin_reports.each do |report| %>
-              <tr>
-                  <td><%= report.name %></td>
-                  <td><%= report.model %></td>
-                  <td><%= report.sn %></td>
-                  <td><%= report.current %></td>
-                  <td><%= report.bin %></td>
-              </tr>
-              <% end %>
-          </tbody>
-  </table>
+              <tbody>
+                  <% @bin_reports.each do |report| %>
+                  <tr scope="row">
+                      <td><%= report.name %></td>
+                      <td><%= report.model %></td>
+                      <td><%= report.sn %></td>
+                      <td><%= report.current %></td>
+                      <td><%= report.bin %></td>
+                  </tr>
+                  <% end %>
+              </tbody>
+          </table>
+        </div>
+    <% end %>
   <% end %>
-<% end %>
+</div>
+
+<script>
+  $(document).on('ready', function(){
+
+    $('#search-form').on('submit', function(){
+      $('#text_content').val("");
+    });
+
+  });
+</script>
